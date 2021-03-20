@@ -34,6 +34,8 @@
                 </div>
             </div>
         </section>
+
+
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
@@ -104,7 +106,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
+                                <img class="img-fluid" src="<?php echo base_url ('assets/assets2/img/portfolio/05-thumbnail.jpg" alt=""');?>" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Southwest</div>
@@ -129,6 +131,8 @@
                 </div>
             </div>
         </section>
+
+
         <!-- About-->
         <section class="page-section" id="about">
             <div class="container">
@@ -191,6 +195,8 @@
                 </ul>
             </div>
         </section>
+
+
         <!-- Team-->
         <section class="page-section bg-light" id="team">
             <div class="container">
@@ -235,6 +241,8 @@
                 </div>
             </div>
         </section>
+
+
         <!-- Clients-->
         <div class="py-5">
             <div class="container">
@@ -254,6 +262,7 @@
                 </div>
             </div>
         </div>
+
 
         <!-- Contact-->
         <section class="page-section" id="contact">
