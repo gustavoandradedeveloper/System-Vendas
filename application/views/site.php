@@ -207,7 +207,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets2/img/team/1.jpg" alt=""');?>" />
+                            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets2/img/team/1.jpeg" alt=""');?>" />
                             <h4>Alef Antonio</h4>
                             <p class="text-muted">Front End Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
