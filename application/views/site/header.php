@@ -24,7 +24,7 @@
         
 
 		<!-- Core theme CSS (includes Bootstrap)-->
-        <link href="<?php echo base_url('assets2/css/styles.css" rel="stylesheet"');?>"/>
+        <link href="<?php echo base_url('assets/css/styles.css" rel="stylesheet"');?>"/>
     </head>
     <body id="page-top">
 
