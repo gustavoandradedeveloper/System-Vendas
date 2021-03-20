@@ -7,11 +7,14 @@
         <meta name="author" content="" />
         <title>Agency - Start Bootstrap Theme</title>
 		
+
         <link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/assets2/img/favicon.ico');?>" />
         <!-- Font Awesome icons (free version)-->
 
+
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
         
+
 		<!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         
@@ -19,10 +22,13 @@
         
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         
+
 		<!-- Core theme CSS (includes Bootstrap)-->
-        <link href="<?php echo base_url('assets2/css/styles.css" rel="stylesheet"');?>"/>
+        <link href="<?php echo base_url('assets/css/styles.css" rel="stylesheet"');?>"/>
     </head>
     <body id="page-top">
+
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
@@ -44,6 +50,7 @@
                 </div>
             </div>
         </nav>
+        
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
