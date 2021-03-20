@@ -4,9 +4,9 @@
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
+        <script src="<?php echo base_url ('assets/assets2/mail/jqBootstrapValidation.js""');?>"></script>
+        <script src="<?php echo base_url ('assets/assets2/mail/contact_me.js""');?>"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="<?php echo base_url ('assets/assets2/js/scripts.js""');?>"></script>
     </body>
 </html>
