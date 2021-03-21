@@ -58,6 +58,8 @@
                             </div>
                         </div>
                     </div>
+
+
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
@@ -72,6 +74,8 @@
                             </div>
                         </div>
                     </div>
+
+
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
@@ -86,50 +90,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="<?php echo base_url('assets/assets/img/portfolio/04-thumbnail.jpg" alt="');?>" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Linhas</div>
-                                <div class="portfolio-caption-subheading text-muted">Marcas</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="<?php echo base_url ('assets/assets/img/portfolio/05-thumbnail.jpg" alt=""');?>" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Design de Websites</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="<?php echo base_url('assets/assets/img/portfolio/06-thumbnail.jpg" alt=""');?>" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Janela</div>
-                                <div class="portfolio-caption-subheading text-muted">Fotografias</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+
+
         </section>
 
 
@@ -210,7 +173,7 @@
                             <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets/img/team/1.png" alt=""');?>" />
                             <h4>Alef Antonio</h4>
                             <p class="text-muted">Front End Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/AlefSouza10"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                         </div>
@@ -220,7 +183,7 @@
                             <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets/img/team/2.png" alt=""');?>" />
                             <h4>Gustavo Andrade</h4>
                             <p class="text-muted">Full Stack Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/gustavoandradedeveloper"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                         </div>
@@ -230,7 +193,7 @@
                             <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets/img/team/3.png" alt=""');?>" />
                             <h4>Edder Luan</h4>
                             <p class="text-muted">Back End Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/EdderLuanPS"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                         </div>
