@@ -2,7 +2,7 @@
    <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
+                    <div class="col-lg-4 text-lg-left">Copyright © Your Website 2021</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -28,8 +28,8 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">...</p>
+                                    <h2 class="text-uppercase">Tópicos</h2>
+                                    <p class="item-intro text-muted">Navegue pelos nossos tópicos</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
                                     <p>Use this area to describe your project. ...</p>
                                     <ul class="list-inline">
@@ -39,7 +39,7 @@
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        Fechar Janela
                                     </button>
                                 </div>
                             </div>
@@ -62,10 +62,10 @@
 
 
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Explore mais</h2>
+                                    <p class="item-intro text-muted">Explore um pouco mais sobre nossos projetos.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Use this area to describe your project.</p>
                                     <ul class="list-inline">
                                         <li>Data: Março, 2021</li>
                                         <li>Cliente: Lista</li>
@@ -73,7 +73,7 @@
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        Fechar Janela
                                     </button>
                                 </div>
                             </div>
@@ -96,10 +96,10 @@
 
 
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Processo de finalização</h2>
+                                    <p class="item-intro text-muted">Veja mais sobre a finalização de nossos projetos.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Use this area to describe your project.</p>
                                     <ul class="list-inline">
                                         <li>Data: Março, 2021</li>
                                         <li>Cliente: Lista</li>
@@ -107,7 +107,7 @@
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        Fechar Janela
                                     </button>
                                 </div>
                             </div>
@@ -130,10 +130,10 @@
 
 
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Linhas</h2>
+                                    <p class="item-intro text-muted">Tudo sobre nossos mais variados projetos.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Use this area to describe your project.</p>
                                     <ul class="list-inline">
                                         <li>Data: Março, 2021</li>
                                         <li>Cliente: Lista</li>
@@ -141,7 +141,7 @@
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        Fechar Janela
                                     </button>
                                 </div>
                             </div>
@@ -164,10 +164,10 @@
 
 
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">SouthWest Project</h2>
+                                    <p class="item-intro text-muted">Acompanhe a produção e Design de nossos websites.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Use this area to describe your project. </p>
                                     <ul class="list-inline">
                                         <li>Data: Março, 2021</li>
                                         <li>Cliente: Lista</li>
@@ -175,7 +175,7 @@
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        Fechar Janela
                                     </button>
                                 </div>
                             </div>
@@ -198,10 +198,10 @@
 
 
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Janela</h2>
+                                    <p class="item-intro text-muted">Visualize noss galeria de imagens.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Use this area to describe your project.</p>
                                     <ul class="list-inline">
                                         <li>Data: Março, 2021</li>
                                         <li>Cliente: Lista</li>
@@ -209,7 +209,7 @@
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        Fechar Janela
                                     </button>
                                 </div>
                             </div>
