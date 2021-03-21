@@ -217,9 +217,9 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets2/img/team/2.jpg" alt=""');?>" />
-                            <h4>Edder Luan</h4>
-                            <p class="text-muted">Back End Developer</p>
+                            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets2/img/team/2.png" alt=""');?>" />
+                            <h4>Gustavo Andrade</h4>
+                            <p class="text-muted">Full Stack Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -227,9 +227,9 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets2/img/team/3.jpg" alt=""');?>" />
-                            <h4>Gustavo Andrade</h4>
-                            <p class="text-muted">Full Stack Developer</p>
+                            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets2/img/team/3.png" alt=""');?>" />
+                            <h4>Edder Luan</h4>
+                            <p class="text-muted">Back End Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -33,7 +33,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 
-				<a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="<?php echo base_url('assets/img/navbar-logo.svg" alt=""');?>"/></a>
+				<a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="<?php echo base_url('assets/assets2/img/navbar-logo.svg" alt=""');?>"/></a>
 
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
@@ -41,11 +41,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Serviços</a></li>
+
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Time</a></li>
+
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contato</a></li>
+
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Login</a></li>
                     </ul>
                 </div>
             </div>
