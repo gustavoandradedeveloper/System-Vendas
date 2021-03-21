@@ -5,10 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Agency - Start Bootstrap Theme</title>
+        <title>TechManager</title>
 		
 
-        <link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/assets2/img/favicon.ico');?>" />
+        <link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/assets2/img/techManager.ico');?>" />
         <!-- Font Awesome icons (free version)-->
 
 
