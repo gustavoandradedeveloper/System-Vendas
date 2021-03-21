@@ -16,11 +16,19 @@ class Usuarios extends CI_Controller{
         //vai conter uma chaves chamada usuario que vai conter os usuarios cadastrado no banco de dados 
         //para saber atraves do plugin como recurerar os dados do banco -> vai na documentação e procura 
         
+
         $data = array(
             'usuarios' => $this->ion_auth->users()->result(), 
         );//dentro do data já se tem informação para ser passada na view porem não ta sendo carregada a view para qual essas informações vai ser passsada 
         
-        
+        /*
+        verificando se está vindo dados do bd
+
+        echo'<pre>';
+        print_r($data['usuarios']);
+        exit();
+        */
+
         //carrega a view header com o array data que contem todos os dados que vai ser mostrado na view
         $this->load->view('layout/header',$data);
         
