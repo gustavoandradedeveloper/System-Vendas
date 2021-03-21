@@ -9,7 +9,7 @@ class Site extends CI_Controller{
     
     public function index(){
         
-        $this->template->show('site');
+        $this->template->show('site/index');
         
     }
 }
