@@ -8,7 +8,7 @@
         <title>TechManager</title>
 		
 
-        <link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/assets2/img/techManager.ico');?>" />
+        <link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/assets/img/techManager.ico');?>" />
         <!-- Font Awesome icons (free version)-->
 
 
@@ -33,7 +33,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 
-				<a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="<?php echo base_url('assets/assets2/img/navbar-logo.svg" alt=""');?>"/></a>
+				<a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="<?php echo base_url('assets/assets/img/navbar-logo.svg" alt=""');?>"/></a>
 
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu

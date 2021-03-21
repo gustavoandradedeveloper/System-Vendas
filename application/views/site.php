@@ -50,7 +50,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="<?php echo base_url('assets/assets2/img/portfolio/01-thumbnail.jpg" alt="');?>" />
+                                <img class="img-fluid" src="<?php echo base_url('assets/assets/img/portfolio/01-thumbnail.jpg" alt="');?>" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Tópicos</div>
@@ -64,7 +64,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="<?php echo base_url('assets/assets2/img/portfolio/02-thumbnail.jpg" alt="');?>" />
+                                <img class="img-fluid" src="<?php echo base_url('assets/assets/img/portfolio/02-thumbnail.jpg" alt="');?>" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Explore Mais</div>
@@ -78,7 +78,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="<?php echo base_url('assets/assets2/img/portfolio/03-thumbnail.jpg" alt="');?>" />
+                                <img class="img-fluid" src="<?php echo base_url('assets/assets/img/portfolio/03-thumbnail.jpg" alt="');?>" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Finish</div>
@@ -92,7 +92,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="<?php echo base_url('assets/assets2/img/portfolio/04-thumbnail.jpg" alt="');?>" />
+                                <img class="img-fluid" src="<?php echo base_url('assets/assets/img/portfolio/04-thumbnail.jpg" alt="');?>" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Linhas</div>
@@ -106,7 +106,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="<?php echo base_url ('assets/assets2/img/portfolio/05-thumbnail.jpg" alt=""');?>" />
+                                <img class="img-fluid" src="<?php echo base_url ('assets/assets/img/portfolio/05-thumbnail.jpg" alt=""');?>" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Southwest</div>
@@ -120,7 +120,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="<?php echo base_url('assets/assets2/img/portfolio/06-thumbnail.jpg" alt=""');?>" />
+                                <img class="img-fluid" src="<?php echo base_url('assets/assets/img/portfolio/06-thumbnail.jpg" alt=""');?>" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Janela</div>
@@ -142,7 +142,7 @@
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets/assets2/img/about/1.jpg" alt=""');?>" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets/assets/img/about/1.jpg" alt=""');?>" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2009-2011</h4>
@@ -152,7 +152,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets/assets2/img/about/2.jpg" alt=""');?>" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets/assets/img/about/2.jpg" alt=""');?>" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>March 2011</h4>
@@ -162,7 +162,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets/assets2/img/about/3.jpg" alt=""');?>" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets/assets/img/about/3.jpg" alt=""');?>" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>December 2012</h4>
@@ -172,7 +172,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets/assets2/img/about/4.jpg" alt=""');?>" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets/assets/img/about/4.jpg" alt=""');?>" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>July 2014</h4>
@@ -207,7 +207,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets2/img/team/1.png" alt=""');?>" />
+                            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets/img/team/1.png" alt=""');?>" />
                             <h4>Alef Antonio</h4>
                             <p class="text-muted">Front End Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
@@ -217,7 +217,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets2/img/team/2.png" alt=""');?>" />
+                            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets/img/team/2.png" alt=""');?>" />
                             <h4>Gustavo Andrade</h4>
                             <p class="text-muted">Full Stack Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
@@ -227,7 +227,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets2/img/team/3.png" alt=""');?>" />
+                            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets/img/team/3.png" alt=""');?>" />
                             <h4>Edder Luan</h4>
                             <p class="text-muted">Back End Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
