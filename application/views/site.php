@@ -3,8 +3,8 @@
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Serviços</h2>
+                    <h3 class="section-subheading text-muted">Conheça um pouco mais sobre nossos serviços.</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
@@ -13,23 +13,23 @@
                             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <p class="text-muted">A plataforma oferece as ferramentas mais atualizadas do mercado para o controle do seu comércio digital.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <h4 class="my-3">Design Responsivo</h4>
+                        <p class="text-muted">Design feito inteiramente sob medida atendendo os mais sofisticados padrões do mercado.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <h4 class="my-3">Segurança Digital</h4>
+                        <p class="text-muted">O sistema oferece a melhor proteção digital de dados e um conjunto de barreiras de proteção mara maior proteção do usuário.</p>
                     </div>
                 </div>
             </div>
@@ -53,8 +53,8 @@
                                 <img class="img-fluid" src="<?php echo base_url('assets/assets2/img/portfolio/01-thumbnail.jpg" alt="');?>" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                                <div class="portfolio-caption-heading">Tópicos</div>
+                                <div class="portfolio-caption-subheading text-muted">Demonstração</div>
                             </div>
                         </div>
                     </div>
@@ -67,8 +67,8 @@
                                 <img class="img-fluid" src="<?php echo base_url('assets/assets2/img/portfolio/02-thumbnail.jpg" alt="');?>" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                                <div class="portfolio-caption-heading">Explore Mais</div>
+                                <div class="portfolio-caption-subheading text-muted">Design Gráfico</div>
                             </div>
                         </div>
                     </div>
@@ -95,8 +95,8 @@
                                 <img class="img-fluid" src="<?php echo base_url('assets/assets2/img/portfolio/04-thumbnail.jpg" alt="');?>" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
+                                <div class="portfolio-caption-heading">Linhas</div>
+                                <div class="portfolio-caption-subheading text-muted">Marcas</div>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                                <div class="portfolio-caption-subheading text-muted">Design de Websites</div>
                             </div>
                         </div>
                     </div>
@@ -123,8 +123,8 @@
                                 <img class="img-fluid" src="<?php echo base_url('assets/assets2/img/portfolio/06-thumbnail.jpg" alt=""');?>" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                                <div class="portfolio-caption-subheading text-muted">Photography</div>
+                                <div class="portfolio-caption-heading">Janela</div>
+                                <div class="portfolio-caption-subheading text-muted">Fotografias</div>
                             </div>
                         </div>
                     </div>
@@ -137,8 +137,8 @@
         <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Sobre</h2>
+                    <h3 class="section-subheading text-muted">Um pouco mais sobre a nossa jornada.</h3>
                 </div>
                 <ul class="timeline">
                     <li>
@@ -184,11 +184,11 @@
                     <li class="timeline-inverted">
                         <div class="timeline-image">
                             <h4>
-                                Be Part
+                                Faça Parte
                                 <br />
-                                Of Our
+                                Da Nossa
                                 <br />
-                                Story!
+                                história!
                             </h4>
                         </div>
                     </li>
