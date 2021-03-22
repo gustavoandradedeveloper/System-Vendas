@@ -114,7 +114,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets/assets/img/about/2.jpg" alt=""');?>" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets/assets/img/about/2-Oficial.jpeg" alt=""');?>" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Back-End</h4>
