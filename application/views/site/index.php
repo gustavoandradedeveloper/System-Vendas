@@ -110,7 +110,7 @@
                                 <h4>2019</h4>
                                 <h4 class="subheading">Ingressamos no curso de Sistemas de Informação</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Em 2019 demos início a nossa jornada acadêmica no mundo da tecnologia e desenvolvimento…</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
@@ -120,7 +120,7 @@
                                 <h4>Back-End</h4>
                                 <h4 class="subheading">Nossa forma de trabalho com linguágens e ferramentas Back-End</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Visando a melhor performance e usabilidade dos sistemas desenvolvidos, utilizamos de linguagens como Java, Phyton e PHP, e ferramentas como Django, Codeignier e Spring Boot.</p></div>
                         </div>
                     </li>
                     <li>
@@ -130,7 +130,7 @@
                                 <h4>Front-End</h4>
                                 <h4 class="subheading">Um pouco mais sobre nosso modelo de desenvolvimento Front-End e Design.</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Buscando sempre a melhor experiência de usuário e boa interação do mesmo com os sistemas e sites, fazemos o uso de linguagens como JavaScript, CSS e HTML, e também ferramentas como Node.JS, React e Vue.JS</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
@@ -138,9 +138,9 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Dados e Segurança Digital</h4>
-                                <h4 class="subheading">Uma visão de como trabalhamos para otimizar a gestão de dados e como nos importamos com os dados dos nossos clientes.</h4>
+                                <h4 class="subheading">Uma visão de como priorizamos a segurança na gestão de dados dos nossos clientes.</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Um dos principais dilemas atuais é a segurança digital e a forma como dados são administrados, e nós sempre priorizamos a forma como administramos os dados dos clientes, utilizando as melhores ferramentas de segurança e criptografia do mercado.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
