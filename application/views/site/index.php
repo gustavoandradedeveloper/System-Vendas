@@ -189,7 +189,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets/img/team/3.png" alt=""');?>" />
+                            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/assets/img/team/Teste.jpeg" alt=""');?>" />
                             <h4>Edder Luan</h4>
                             <p class="text-muted">Back End Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="https://github.com/EdderLuanPS"><i class="fab fa-twitter"></i></a>
