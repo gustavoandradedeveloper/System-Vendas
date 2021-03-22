@@ -96,7 +96,7 @@
 
 
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Processo de finalização</h2>
+                                    <h2 class="text-uppercase">Sites, Blogs e Web Design</h2>
                                     <p class="item-intro text-muted">Veja mais sobre nossos Sites, Blogs e Web Design.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
                                     <p>Use this area to describe your project.</p>
