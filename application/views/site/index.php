@@ -124,7 +124,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets/assets/img/about/3.jpg" alt=""');?>" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets/assets/img/about/3-Oficial.jpeg" alt=""');?>" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Front-End</h4>
