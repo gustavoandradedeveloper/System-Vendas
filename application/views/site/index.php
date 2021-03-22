@@ -39,8 +39,8 @@
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portifólio</h2>
-                    <h3 class="section-subheading text-muted">Acompanhe nossas criações.</h3>
+                    <h2 class="section-heading text-uppercase">Portfólio</h2>
+                    <h3 class="section-subheading text-muted">Conheça nossas criações.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -53,7 +53,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Sistemas Desktop</div>
-                                <div class="portfolio-caption-subheading text-muted">Conheça nossos Sistemas Desktop para gestão corporativa.</div>
+                                <div class="portfolio-caption-subheading text-muted">Conheça nossos Sistemas Desktop para gestão empresarial e corporativa.</div>
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Dados e Segurança Digital</h4>
-                                <h4 class="subheading">Uma visão de como priorizamos a segurança na gestão de dados dos nossos clientes.</h4>
+                                <h4 class="subheading">Um pouco sobre como priorizamos a segurança na gestão de dados dos nossos clientes.</h4>
                             </div>
                             <div class="timeline-body"><p class="text-muted">Um dos principais dilemas atuais é a segurança digital e a forma como dados são administrados, e nós sempre priorizamos a forma como administramos os dados dos clientes, utilizando as melhores ferramentas de segurança e criptografia do mercado.</p></div>
                         </div>
