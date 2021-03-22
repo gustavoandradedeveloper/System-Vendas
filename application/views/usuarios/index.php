@@ -1,4 +1,3 @@
-
 <?php $this->load->view('layout/siderbar'); ?>
 
 <!-- Main Content -->
@@ -8,63 +7,49 @@
 
     <!-- Begin Page Content -->
     <div class="container-fluid">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="<?php echo base_url('home/index');?>">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><?php echo $titulo?></li>
+            </ol>
+        </nav>
 
-              <!-- DataTales Example -->
-              <div class="card shadow mb-4">
+        <!-- DataTales Example -->
+        <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
-            </div>
+                <a title="Cadastrar novo usuário" href="" class="btn btn-success btn-sm float-right"><i class="fas fa-user-plus"></i>&nbsp Novo</a>
+            </div>  
             <div class="card-body">
-              <div class="table-responsive">
-                <table class="table table-bordered dataTable" width="100%" cellspacing="0">
-                  <thead>
-                    <tr>
-                      <th>#</th>
-                      <th>Usuário</th>
-                      <th>Login</th>
-                      <th>Ativo</th>
-                      <th>Ações</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                     
-                     <!-- a primeira variavel tem que trazer exatamente a informação que está enviando para view dentro de data que no caso aqui é usuarios tipo: 
-                        $data = array(
-                        'usuarios' => $this->ion_auth->users()->result(), 
-                        ); tudo isto está no controller Usuarios
-                        o user pode ser qualquer nome ele é um objeto criado
-                        -->
+                <div class="table-responsive">
+                    <table class="table table-bordered dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Usuário</th>
+                                <th>Login</th>
+                                <th>Ativo</th>
+                                <th class="text-right">Ações</th>
+                            </tr>
+                        </thead>
 
-                    <?php foreach($usuarios as $user):?>
-                    
-                    <tr>
-
-                      <!-- mostrando a informação de cada usuarios -->
-                      <!-- $user e o objeto -> ponto e o atributo que queremos acessar do objeto-->
-
-                      <td><?php echo $user->id ?></td>
-                      <td><?php echo $user->username ?></td>
-                      <td><?php echo $user->email ?></td>
-                      <td><?php echo $user->active ?></td>
-                      <td> 
-                            <a title="Editar" href="" class="btn btn-sm btn-primary">Editar</a>
-
-                            <a title="Excluir" href="" class="btn btn-sm btn-danger">Excluir</a>
-                      </td>
-                    </tr>
-
-                    <?php endforeach;?>
-                  </tbody>
-                </table>
-              </div>
+                        <tbody>
+                            <?php foreach($usuarios as $user):?>
+                            <tr>
+                                <td><?php echo $user->id ?></td>
+                                <td><?php echo $user->username ?></td>
+                                <td><?php echo $user->email ?></td>
+                                <td><?php echo $user->active ?></td>
+                                <td class="text-right">
+                                    <a title="Editar" href="" class="btn btn-sm btn-primary"><i class="fas fa-user-edit"></i></a>
+                                    <a title="Excluir" href="" class="btn btn-sm btn-danger"><i class="fas fa-user-times"></i></a>
+                                </td>
+                            </tr>
+                            <?php endforeach;?>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-          </div>
-
         </div>
-        <!-- /.container-fluid -->
-
-      </div>
-      <!-- End of Main Content -->
 
     </div>
     <!-- /.container-fluid -->
