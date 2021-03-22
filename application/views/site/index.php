@@ -52,8 +52,8 @@
                                 <img class="img-fluid" src="<?php echo base_url('assets/assets/img/portfolio/01-thumbnail.jpg" alt="');?>" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Tópicos</div>
-                                <div class="portfolio-caption-subheading text-muted">Demonstração</div>
+                                <div class="portfolio-caption-heading">Sistemas Desktop</div>
+                                <div class="portfolio-caption-subheading text-muted">Conheça nossos Sistemas Desktop para gestão corporativa.</div>
                             </div>
                         </div>
                     </div>
@@ -68,8 +68,8 @@
                                 <img class="img-fluid" src="<?php echo base_url('assets/assets/img/portfolio/02-thumbnail.jpg" alt="');?>" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore Mais</div>
-                                <div class="portfolio-caption-subheading text-muted">Design Gráfico</div>
+                                <div class="portfolio-caption-heading">Sistemas Web</div>
+                                <div class="portfolio-caption-subheading text-muted">Conheça nossos Sistemas e Plataformas Web para todos os modelos de negócio.</div>
                             </div>
                         </div>
                     </div>
@@ -84,8 +84,8 @@
                                 <img class="img-fluid" src="<?php echo base_url('assets/assets/img/portfolio/03-thumbnail.jpg" alt="');?>" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
+                                <div class="portfolio-caption-heading">Sites e Blogs</div>
+                                <div class="portfolio-caption-subheading text-muted">Conheça nossos sites, blogs e nosso campo de design e desenvolvimento web.</div>
                             </div>
                         </div>
                     </div>
