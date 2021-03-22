@@ -27,7 +27,7 @@ class Usuarios extends CI_Controller{
             'scripts' => array(
                 'vendor/datatables/jquery.dataTables.min.js',
                 'vendor/datatables/dataTables.bootstrap4.min.js',
-                'vendor/datatables/app.js'
+                'vendor/datatables/app.js',
             ),
             'usuarios' => $this->ion_auth->users()->result(), 
         );//dentro do data já se tem informação para ser passada na view porem não ta sendo carregada a view para qual essas informações vai ser passsada 
@@ -50,4 +50,29 @@ class Usuarios extends CI_Controller{
         $this->load->view('layout/footer');
     }
     
+    public function edit($user_id = NULL){
+        
+
+            if(!$user_id || !$this->ion_auth->user($user_id)->row()) {
+
+                exit('Usuário não encontrado');
+
+            } else {
+
+                $data = array(
+                'titulo' => 'Editar usuários',
+                'usuario' => $this->ion_auth->user($user_id)->row(),
+                );
+            /*
+            echo '<pre>';
+            print_r($data['usuario']);
+            exit();
+            */
+            
+            $this->load->view('layout/header', $data);
+            $this->load->view('usuarios/edit');
+            $this->load->view('layout/footer');
+
+        }
+    }
 }
