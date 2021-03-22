@@ -28,13 +28,13 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Tópicos</h2>
-                                    <p class="item-intro text-muted">Navegue pelos nossos tópicos</p>
+                                    <h2 class="text-uppercase">Sistemas Desktop</h2>
+                                    <p class="item-intro text-muted">Navegue pelos nossos Sistemas Desktop</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
                                     <p>Use this area to describe your project. ...</p>
                                     <ul class="list-inline">
                                         <li>Data: Março, 2021</li>
-                                        <li>Cliente: Lista</li>
+                                        <li>Modelo: Lista</li>
                                         <li>Categoria: Demonstração</li>
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -62,13 +62,13 @@
 
 
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Explore mais</h2>
-                                    <p class="item-intro text-muted">Explore um pouco mais sobre nossos projetos.</p>
+                                    <h2 class="text-uppercase">Sistemas Web</h2>
+                                    <p class="item-intro text-muted">Explore um pouco mais sobre nossos Sistemas e Plataformas Web.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
                                     <p>Use this area to describe your project.</p>
                                     <ul class="list-inline">
                                         <li>Data: Março, 2021</li>
-                                        <li>Cliente: Lista</li>
+                                        <li>Modelo: Lista</li>
                                         <li>Categoria: Demonstração</li>
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -97,12 +97,12 @@
 
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">Processo de finalização</h2>
-                                    <p class="item-intro text-muted">Veja mais sobre a finalização de nossos projetos.</p>
+                                    <p class="item-intro text-muted">Veja mais sobre nossos Sites, Blogs e Web Design.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
                                     <p>Use this area to describe your project.</p>
                                     <ul class="list-inline">
                                         <li>Data: Março, 2021</li>
-                                        <li>Cliente: Lista</li>
+                                        <li>Modelo: Lista</li>
                                         <li>Categoria: Demonstração</li>
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
