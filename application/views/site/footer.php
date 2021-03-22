@@ -2,7 +2,7 @@
    <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright © Your Website 2021</div>
+                    <div class="col-lg-4 text-lg-left">Copyright ©  TechManager 2021 - Todos os direitos reservados</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -31,7 +31,7 @@
                                     <h2 class="text-uppercase">Sistemas Desktop</h2>
                                     <p class="item-intro text-muted">Navegue pelos nossos Sistemas Desktop</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. ...</p>
+                                    <p>Nossos sistemas são criados com a melhor e mais atual tecnologia do mercado, seguindo os melhores padrões de desenvolvimento e buscando sempre a melhor experiencia com o usuário</p>
                                     <ul class="list-inline">
                                         <li>Data: Março, 2021</li>
                                         <li>Modelo: Lista</li>
@@ -65,7 +65,7 @@
                                     <h2 class="text-uppercase">Sistemas Web</h2>
                                     <p class="item-intro text-muted">Explore um pouco mais sobre nossos Sistemas e Plataformas Web.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
-                                    <p>Use this area to describe your project.</p>
+                                    <p>Nossos sistemas e plataformas Web são desenvolvidos totalmente sob medida, proporcionando assim uma melhor a melhor interação e usabilidade.</p>
                                     <ul class="list-inline">
                                         <li>Data: Março, 2021</li>
                                         <li>Modelo: Lista</li>
@@ -99,7 +99,7 @@
                                     <h2 class="text-uppercase">Sites, Blogs e Web Design</h2>
                                     <p class="item-intro text-muted">Veja mais sobre nossos Sites, Blogs e Web Design.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
-                                    <p>Use this area to describe your project.</p>
+                                    <p>No processo de desenvolvimento e design dos nossos sites, sempre priorizamos a qualidade que só a TechManager pode oferecer.</p>
                                     <ul class="list-inline">
                                         <li>Data: Março, 2021</li>
                                         <li>Modelo: Lista</li>
