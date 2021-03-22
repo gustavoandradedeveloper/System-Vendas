@@ -81,7 +81,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="<?php echo base_url('assets/assets/img/portfolio/03-thumbnail.jpg" alt="');?>" />
+                                <img class="img-fluid" src="<?php echo base_url('assets/assets/img/portfolio/03-Oficial.jpg" alt="');?>" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Sites e Blogs</div>
