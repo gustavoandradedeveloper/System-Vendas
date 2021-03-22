@@ -18,6 +18,15 @@ class Usuarios extends CI_Controller{
         
 
         $data = array(
+            'styles' => array(
+                'vendor/datatables/dataTables.bootstrap4.min.css',
+            ),
+
+            'scripts' => array(
+                'vendor/datatables/jquery.dataTables.min.js',
+                'vendor/datatables/dataTables.bootstrap4.min.js',
+                'vendor/datatables/app.js'
+            ),
             'usuarios' => $this->ion_auth->users()->result(), 
         );//dentro do data já se tem informação para ser passada na view porem não ta sendo carregada a view para qual essas informações vai ser passsada 
         
