@@ -104,7 +104,7 @@
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets/assets/img/about/1.jpg" alt=""');?>" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url('assets/assets/img/about/1-Oficial.jpeg" alt=""');?>" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2019</h4>
