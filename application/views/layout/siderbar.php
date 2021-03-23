@@ -22,11 +22,11 @@
 
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
-            aria-controls="collapseTwo">
+           aria-controls="collapseTwo">
             <i class="fas fa-shopping-cart"></i>
             <span>Vendas</span>
         </a>
-        
+
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
 
             <div class="bg-white py-2 collapse-inner rounded">
@@ -44,7 +44,7 @@
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
-            aria-controls="collapseTwo">
+           aria-controls="collapseTwo">
             <i class="fas fa-database"></i>
             <span>Cadastro</span>
         </a>
@@ -62,7 +62,7 @@
     <!-- Nav Item - Utilities Collapse Menu -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-            aria-expanded="true" aria-controls="collapseUtilities">
+           aria-expanded="true" aria-controls="collapseUtilities">
             <i class="fas fa-box-open"></i>
             <span>Estoque</span>
         </a>
@@ -115,7 +115,7 @@
     <!-- Nav Item - Tables -->
     <li class="nav-item">
         <a class="nav-link" href="tables.html">
-        <i class="fas fa-cog"></i>
+            <i class="fas fa-cog"></i>
             <span>Sistema</span></a>
     </li>
 

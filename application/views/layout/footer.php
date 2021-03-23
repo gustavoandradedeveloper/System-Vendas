@@ -2,7 +2,7 @@
 <footer class="sticky-footer bg-white">
     <div class="container my-auto">
         <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Tech Maneger <?php echo date('Y');?>&nbsp | By Gustavo Andrade, Alef Antônio e Edder Luan </span>
+            <span>Copyright &copy; Tech Maneger <?php echo date('Y'); ?>&nbsp | By Gustavo Andrade, Alef Antônio e Edder Luan </span>
         </div>
     </div>
 </footer>
@@ -44,20 +44,20 @@
 <script src="<?php echo base_url('public/vendor/bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>
 
 <!-- Core plugin JavaScript-->
-<script src="<?php echo base_url('public/vendor/jquery-easing/jquery.easing.min.js');?>"></script>
+<script src="<?php echo base_url('public/vendor/jquery-easing/jquery.easing.min.js'); ?>"></script>
 
 <!-- Custom scripts for all pages-->
-<script src="<?php echo base_url('public/js/sb-admin-2.min.js');?>"></script>
+<script src="<?php echo base_url('public/js/sb-admin-2.min.js'); ?>"></script>
 
-<?php if(isset($scripts)): ?>
+<?php if (isset($scripts)): ?>
 
-<?php foreach ($scripts as $script): ?>
+    <?php foreach ($scripts as $script): ?>
 
-    <!-- Custom scripts for all pages-->
-    <script src="<?php echo base_url('public/'. $script); ?>"></script>
-    
+        <!-- Custom scripts for all pages-->
+        <script src="<?php echo base_url('public/' . $script); ?>"></script>
 
-<?php endforeach; ?>
+
+    <?php endforeach; ?>
 
 <?php endif; ?>
 
