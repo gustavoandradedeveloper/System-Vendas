@@ -1,6 +1,6 @@
 // Call the dataTables jQuery plugin
 $(document).ready(function () {
- 
+
     const DATATABLE_PTBR = {
         "sEmptyTable": "Nenhum registro encontrado",
         "sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ registros",
@@ -31,10 +31,10 @@ $(document).ready(function () {
             }
         }
     }
- 
- 
+
+
     $('.dataTable').DataTable({
- 
+
         'oLanguage': DATATABLE_PTBR,
         responsive: true,
         'aoColumnDefs': [{
@@ -42,5 +42,5 @@ $(document).ready(function () {
                 'aTargets': ['no-sort']
             }]
     });
- 
+
 });
