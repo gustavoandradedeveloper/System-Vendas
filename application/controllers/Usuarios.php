@@ -50,28 +50,29 @@ class Usuarios extends CI_Controller {
     }
 
     //caso o usuario não passe nenhum id, não vai dar erro 
-    public function edit($user_id = NULL) {
+    public function edit($usuario_id = NULL) {
 
         // se nao for passado o id do usuariou ou se foi passado e ele não existe entao vai dar um exit
-        if (!$user_id || !$this->ion_auth->user($user_id)->row()) {
+        if (!$usuario_id || !$this->ion_auth->user($usuario_id)->row()) {
 
             exit('Usuário não encontrado');
-            
+
         } else {
 
             // se existir vai criar um array de dados e vai armazena nessa chave usuarios todos os dados desse usuario que vem do BD 
             $data = array(
 
                 'titulo' => 'Editar usuários',
-                'usuario' => $this->ion_auth->user($user_id)->row(),
+                'usuario' => $this->ion_auth->user($usuario_id)->row(),      
+                'perfil_usuario' => $this->ion_auth->get_users_groups($usuario_id)->row(),
 
             );
             
             /*
               echo '<pre>';
-              print_r($data['usuario']);
+              print_r($data['perfil_usuario']);
               exit();
-             */
+            */
             
              //carregando as view
             $this->load->view('layout/header', $data);
