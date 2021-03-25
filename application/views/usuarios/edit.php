@@ -18,7 +18,16 @@
         <!-- DataTales Example -->
         <div class="card shadow mb-4">
             <div class="card-header py-3">
-                <a title="Voltar" href="<?php echo base_url('usuarios');?>" class="btn btn-success btn-sm float-right"><i class="fas fa-arrow-left"></i>&nbsp Voltar</a>
+                
+                <!--CARREGA A URL BASE 
+                $config['base_url'] = 'http://localhost/meus-projetos/system-vendas/usuarios';-->
+
+                <a title="Voltar" 
+                href="<?php echo base_url('usuarios');?>" class="btn btn-success btn-sm float-right">
+                
+                <!-- icone mostrado -->
+                <i class="fas fa-arrow-left"></i>&nbsp Voltar</a>
+
             </div>
 
             <div class="card-body">
@@ -32,9 +41,14 @@
                             <div id="emailHelp" class="form-text"></div>
                         </div>
                     </div>
+                    
+                    
                     <div class="mb-3 row col-md-4">
+                        
                         <label for="exampleInputPassword1" class="form-label">Senha</label>
-                        <input type="password" class="form-control" name="password" id="exampleInputPassword1" value="<?php echo $usuario->password;?>">
+                        
+                        <input type="password" class="form-control" name="password" id="exampleInputPassword1"     
+                        value="<?php echo $usuario->password;?>">
                     </div>
                     
                     <!--
