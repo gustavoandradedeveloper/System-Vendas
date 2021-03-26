@@ -58,13 +58,6 @@ class Usuarios extends CI_Controller {
             exit('Usuário não encontrado');
         } else {
 
-            // se existir vai criar um array de dados e vai armazena nessa chave usuarios todos os dados desse usuario que vem do BD 
-            $data = array(
-                'titulo' => 'Editar usuários',
-                'usuario' => $this->ion_auth->user($usuario_id)->row(),
-                'perfil_usuario' => $this->ion_auth->get_users_groups($usuario_id)->row(),
-            );
-
             /*
              * Array
               (
@@ -78,20 +71,36 @@ class Usuarios extends CI_Controller {
               [confirm_password] => 123
               [usuario_id] => 1
               )
-             * 
              */
-            
-            
-            /*
-            echo '<pre>';
-            print_r($this->input->post());
-            exit();
-            */
 
-            //carregando as view
-            $this->load->view('layout/header', $data);
-            $this->load->view('usuarios/edit');
-            $this->load->view('layout/footer');
+            //trim tira o espaço do comeco e do fim da string e required esse campo não pode vim em branco!
+            $this->form_validation->set_rules('first_name', '', 'trim|required');
+
+            //verificar se o formulario rodou
+            if ($this->form_validation->run()) {
+                
+                exit('');
+                
+            } else {
+                //retorna para view usuario e mostrar a mensagem de erro
+                // se existir vai criar um array de dados e vai armazena nessa chave usuarios todos os dados desse usuario que vem do BD 
+                $data = array(
+                    'titulo' => 'Editar usuários',
+                    'usuario' => $this->ion_auth->user($usuario_id)->row(),
+                    'perfil_usuario' => $this->ion_auth->get_users_groups($usuario_id)->row(),
+                );
+
+                /*
+                  echo '<pre>';
+                  print_r($this->input->post());
+                  exit();
+                 */
+
+                //carregando as view
+                $this->load->view('layout/header', $data);
+                $this->load->view('usuarios/edit');
+                $this->load->view('layout/footer');
+            }
         }
     }
 

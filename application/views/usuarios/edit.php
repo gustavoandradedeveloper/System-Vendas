@@ -47,8 +47,7 @@
                                    name="first_name" phaceholder="Seu Nome" 
 
                                    value="<?php echo $usuario->first_name; ?>">
-
-                            <div id="emailHelp" class="form-text"></div>
+                                   <?php echo form_error('first_name', '<small class="form-text text-danger">', ' </small>'); ?>
                         </div>
 
 
@@ -78,8 +77,8 @@
                         </div>
                     </div>
                     <!-- =============================================FIM DA PRIMEIRA LINHA================================================== -->  
-                    
-                    
+
+
                     <!-- =============================================SEGUNDA LINHA================================================== -->
                     <div class="form-group row">
                         <!-- col-md-4 tamanho do campo de texto -->
@@ -124,10 +123,10 @@
                         </div>
                     </div>
                     <!-- =============================================FIM DA SEGUNDA LINHA================================================== -->
-                    
-                    
+
+
                     <!-- =============================================TERCEIRA LINHA================================================== --> 
-  
+
                     <div class="form-group row">
                         <!-- col-md-4 tamanho do campo de texto -->
                         <div class="col-md-6">
@@ -135,7 +134,7 @@
                             <input type="password" class="form-control" 
                                    name="password" phaceholder="Sua senha">
                         </div>
-                        
+
                         <div class="col-md-6">
                             <label>Confirme sua senha</label>
                             <input type="password" class="form-control" name="confirm_password" phaceholder="Confirme sua senha">
