@@ -55,7 +55,8 @@ class Usuarios extends CI_Controller {
         // se nao for passado o id do usuariou ou se foi passado e ele não existe entao vai dar um exit
         if (!$usuario_id || !$this->ion_auth->user($usuario_id)->row()) {
 
-            exit('Usuário não encontrado');
+            $this->session->set_flashdata('error','Usuário não encontrado');
+            redirect('usuarios');
         } else {
 
             /*
@@ -75,6 +76,12 @@ class Usuarios extends CI_Controller {
 
             //trim tira o espaço do comeco e do fim da string e required esse campo não pode vim em branco!
             $this->form_validation->set_rules('first_name', '', 'trim|required');
+            $this->form_validation->set_rules('last_name', '', 'trim|required');
+            $this->form_validation->set_rules('email', '', 'trim|required');
+            $this->form_validation->set_rules('username', '', 'trim|required');
+            $this->form_validation->set_rules('password', '', 'trim|required');
+            $this->form_validation->set_rules('confirm_password', '', 'trim|required');
+            
 
             //verificar se o formulario rodou
             if ($this->form_validation->run()) {
