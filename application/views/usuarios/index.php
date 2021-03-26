@@ -33,7 +33,9 @@
                         </thead>
 
                         <tbody>
+                            
                             <?php foreach($usuarios as $user):?>
+                            
                             <tr>
                                 <td><?php echo $user->id ?></td>
                                 <td><?php echo $user->username ?></td>
@@ -43,13 +45,15 @@
 
                                     <!-- LINK PARA QUE SEJA CARREGADO A TELA DE EDIÇÃO DO USUARIO -->
                                     <a title="Editar" href="<?php echo base_url('usuarios/edit/'. $user->id);?>" class="btn btn-sm btn-primary">
+                                    
                                     <i class="fas fa-user-edit"></i></a>
-                                    
-                                    
+                                  
                                     <a title="Excluir" href="<?php echo base_url('usuarios/excluir/');?>" class="btn btn-sm btn-danger">
+
                                     <i class="fas fa-user-times"></i></a>
                                 </td>
                             </tr>
+                            
                             <?php endforeach;?>
                         </tbody>
                     </table>

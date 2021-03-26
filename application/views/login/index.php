@@ -18,21 +18,20 @@
                   </div>
 
                     <!-- usando o metodo post para os dados não ir pela url -->
-                    <form class="user" name="form_index" method="POST">                  
+                    <form class="user" name="form_index" method="POST">                                         
+                       
                         <div class="form-group">
-                      
                             <input type="email" name="email" class="form-control form-control-user" placeholder="Entre com seu e-mail">
-
                         </div>
 
                         <div class="form-group">
-
                             <input type="password" name="password" class="form-control form-control-user" placeholder="Entre com sua senha">
-
                         </div>
 
-                            <button type="submit" class="btn btn-primary btn-user btn-block">Entrar</button>
+                        <button type="submit" class="btn btn-primary btn-user btn-block">Entrar</button>
+
                     </form>
+
                 </div>
               </div>
             </div>
