@@ -55,7 +55,7 @@ class Usuarios extends CI_Controller {
         // se nao for passado o id do usuariou ou se foi passado e ele não existe entao vai dar um exit
         if (!$usuario_id || !$this->ion_auth->user($usuario_id)->row()) {
 
-            $this->session->set_flashdata('error','Usuário não encontrado');
+            $this->session->set_flashdata('error', 'Usuário não encontrado');
             redirect('usuarios');
         } else {
 
@@ -81,13 +81,45 @@ class Usuarios extends CI_Controller {
             $this->form_validation->set_rules('username', '', 'trim|required|callback_username_check');
             $this->form_validation->set_rules('password', '', 'min_length[5]|max_length[255]required'); // no minino 5 digito e no maximo 255 na senha 
             $this->form_validation->set_rules('confirm_password', 'confirme', 'matches[password]'); // verifica se o campo confirm_password e igual a password 
-            
-
             //verificar se o formulario rodou
             if ($this->form_validation->run()) {
-                
-                exit('');
-                
+                $data = elements(
+                        array(
+                    'first_name',
+                    'last_name',
+                    'email',
+                    'username',
+                    'active',
+                    'password',
+                        ), $this->input->post()
+                );
+
+                $data = $this->security->xss_clean($data);
+
+                $password = $this->input->post('password');
+
+                //verificar se foi passado a senha 
+                if (!$password) {
+
+                    unset($data['password']);
+                }
+
+
+                if ($this->ion_auth->update($usuario_id, $data)) {
+                    //recuperando o grupo que esse id faz parte
+                    $perfil_usuario_db = $this->ion_auth->get_users_groups($usuario_id)->row();
+                    $perfil_usuario_post = $this->input->post('perfil_usuario');
+
+                    //se for diferente atualizar o grupo
+                    if ($perfil_usuario_post != $perfil_usuario_db->id) {
+                        $this->ion_auth->remove_from_group($perfil_usuario_db->id, $usuario_id);
+                        $this->ion_auth->add_to_group($perfil_usuario_post, $usuario_id);
+                    }
+                    $this->session->set_flashdata('sucesso', 'Dados salvos com sucesso');
+                } else {
+                    $this->session->set_flashdata('error', 'Erro ao salvos os dados');
+                }
+                redirect('usuarios');
             } else {
                 //retorna para view usuario e mostrar a mensagem de erro
                 // se existir vai criar um array de dados e vai armazena nessa chave usuarios todos os dados desse usuario que vem do BD 
@@ -97,12 +129,6 @@ class Usuarios extends CI_Controller {
                     'perfil_usuario' => $this->ion_auth->get_users_groups($usuario_id)->row(),
                 );
 
-                /*
-                  echo '<pre>';
-                  print_r($this->input->post());
-                  exit();
-                 */
-
                 //carregando as view
                 $this->load->view('layout/header', $data);
                 $this->load->view('usuarios/edit');
@@ -111,26 +137,26 @@ class Usuarios extends CI_Controller {
         }
     }
 
-    
-    public function email_check($email){
+    public function email_check($email) {
         $usuario_id = $this->input->post('usuario_id');
-        
-        if($this->core_model->get_by_id('users', array('email' => $email, 'id !=' => $usuario_id))){
-            $this->form_validation->set_message('email_check','Esse e-mail já existe');
+
+        if ($this->core_model->get_by_id('users', array('email' => $email, 'id !=' => $usuario_id))) {
+            $this->form_validation->set_message('email_check', 'Esse e-mail já existe');
             return FALSE;
-        }else{
+        } else {
             return TRUE;
         }
     }
-    
-    public function username_check($username){
+
+    public function username_check($username) {
         $usuario_id = $this->input->post('usuario_id');
-        
-        if($this->core_model->get_by_id('users', array('username' => $username, 'id !=' => $usuario_id))){
-            $this->form_validation->set_message('email_check','Esse usuário já existe');
+
+        if ($this->core_model->get_by_id('users', array('username' => $username, 'id !=' => $usuario_id))) {
+            $this->form_validation->set_message('$username', 'Esse usuário já existe');
             return FALSE;
-        }else{
+        } else {
             return TRUE;
         }
     }
+
 }

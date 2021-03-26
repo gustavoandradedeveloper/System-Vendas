@@ -13,20 +13,30 @@
                 <li class="breadcrumb-item active" aria-current="page"><?php echo $titulo ?></li>
             </ol>
         </nav>
-        <?php if ($message = $this->session->flashdata('error')): ?>
+        <?php if ($message = $this->session->flashdata('sucesso')): ?>
             <div class="row"> 
-
                 <div class="col-md-12">
-                    
-                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                        <strong><i class="fas fa-exclamation-triangle"></i>&nbsp; &nbsp; <?php echo $message;?></strong> 
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <strong><i class="fas fa-smile-wink"></i>&nbsp; &nbsp; <?php echo $message; ?></strong> 
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     
-                    
+                </div>
+                
+            </div>
+        <?php endif; ?>
 
+        <?php if ($message = $this->session->flashdata('error')): ?>
+            <div class="row"> 
+                <div class="col-md-12">
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <strong><i class="fas fa-exclamation-triangle"></i>&nbsp; &nbsp; <?php echo $message; ?></strong> 
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         <?php endif; ?>
@@ -49,16 +59,13 @@
                         </thead>
 
                         <tbody>
-
                             <?php foreach ($usuarios as $user): ?>
-
                                 <tr>
                                     <td><?php echo $user->id ?></td>
                                     <td><?php echo $user->username ?></td>
                                     <td><?php echo $user->email ?></td>
                                     <td><?php echo $user->active ?></td>
                                     <td class="text-right">
-
                                         <!-- LINK PARA QUE SEJA CARREGADO A TELA DE EDIÇÃO DO USUARIO -->
                                         <a title="Editar" href="<?php echo base_url('usuarios/edit/' . $user->id); ?>" class="btn btn-sm btn-primary">
 
@@ -69,7 +76,6 @@
                                             <i class="fas fa-user-times"></i></a>
                                     </td>
                                 </tr>
-
                             <?php endforeach; ?>
                         </tbody>
                     </table>
