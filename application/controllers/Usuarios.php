@@ -49,6 +49,32 @@ class Usuarios extends CI_Controller {
         $this->load->view('layout/footer');
     }
 
+    public function add() {
+
+        //trim tira o espaço do comeco e do fim da string e required esse campo não pode vim em branco!
+        $this->form_validation->set_rules('first_name', '', 'trim|required');
+        $this->form_validation->set_rules('last_name', '', 'trim|required');
+        $this->form_validation->set_rules('email', '', 'trim|required|valid_email|is_unique[users.email]');
+        $this->form_validation->set_rules('username', '', 'trim|required|is_unique[users.username]');
+        $this->form_validation->set_rules('password', 'Senha', 'required|min_length[5]|max_length[255]'); // no minino 5 digito e no maximo 255 na senha 
+        $this->form_validation->set_rules('confirm_password', 'confirme', 'matches[password]'); // verifica se o campo confirm_password e igual a password 
+
+        if ($this->form_validation->run()) {
+
+            exit('Validado');
+        } else {
+            //erro de validação
+
+            $data = array(
+                'titulo' => 'Cadastrar usuários',
+            );
+            //carregando as view
+            $this->load->view('layout/header', $data);
+            $this->load->view('usuarios/add');
+            $this->load->view('layout/footer');
+        }
+    }
+
     //caso o usuario não passe nenhum id, não vai dar erro 
     public function edit($usuario_id = NULL) {
 
