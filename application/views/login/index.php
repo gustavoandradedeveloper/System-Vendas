@@ -12,7 +12,6 @@
                 <!-- Nested Row within Card Body -->
                 <div class="row">
                     <div class="col-lg-12">
-
                         <?php if ($message = $this->session->flashdata('error')): ?>
                             <div class="row"> 
                                 <div class="col-md-12">
