@@ -53,7 +53,7 @@
                                 <th>#</th>
                                 <th>Usuário</th>
                                 <th>Login</th>
-                                <th>Ativo</th>
+                                <th class="text-center">Ativo</th>
                                 <th class="text-right no-sort">Ações</th>
                             </tr>
                         </thead>
@@ -64,7 +64,7 @@
                                     <td><?php echo $user->id ?></td>
                                     <td><?php echo $user->username ?></td>
                                     <td><?php echo $user->email ?></td>
-                                    <td><?php echo $user->active ?></td>
+                                    <td class="text-center pr-4"><?php echo ($user->active == 1 ? '<span class="badge badge-info btn-sm">Sim</span>' : '<span class="badge badge-warning btn-sm">Não</span>')?></td>
                                     <td class="text-right">
                                         <!-- LINK PARA QUE SEJA CARREGADO A TELA DE EDIÇÃO DO USUARIO -->
                                         <a title="Editar" href="<?php echo base_url('usuarios/edit/' . $user->id); ?>" class="btn btn-sm btn-primary">
