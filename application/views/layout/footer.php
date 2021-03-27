@@ -1,14 +1,14 @@
 <!-- recupera a informação do controle da view-->
-<?php if(!$this->router->fetch_class() == 'login'): ?>
-<!-- Footer -->
-<footer class="sticky-footer bg-white">
-    <div class="container my-auto">
-        <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Tech Maneger <?php echo date('Y'); ?>&nbsp | By Gustavo Andrade, Alef Antônio e Edder Luan </span>
+<?php if (!$this->router->fetch_class() == 'login'): ?>
+    <!-- Footer -->
+    <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+                <span>Copyright &copy; Tech Maneger <?php echo date('Y'); ?>&nbsp | By Gustavo Andrade, Alef Antônio e Edder Luan </span>
+            </div>
         </div>
-    </div>
-</footer>
-<!-- End of Footer -->
+    </footer>
+    <!-- End of Footer -->
 
 <?php endif; ?>
 </div>
@@ -27,15 +27,15 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Deseja sair do Sistema?</h5>
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+            <div class="modal-body">Clique em "Sair" para sair do sistema </div>
             <div class="modal-footer">
-                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="login.html">Logout</a>
+                <button class="btn btn-secondary btn-sm" type="button" data-dismiss="modal">Cancelar</button>
+                <a class="btn btn-primary btn-sm" href="<?php echo base_url('login/logout'); ?>">Sair</a>
             </div>
         </div>
     </div>
@@ -54,13 +54,13 @@
 
 <?php if (isset($scripts)): ?>
 
-<?php foreach ($scripts as $script): ?>
+    <?php foreach ($scripts as $script): ?>
 
-<!-- Custom scripts for all pages-->
-<script src="<?php echo base_url('public/' . $script); ?>"></script>
+        <!-- Custom scripts for all pages-->
+        <script src="<?php echo base_url('public/' . $script); ?>"></script>
 
 
-<?php endforeach; ?>
+    <?php endforeach; ?>
 
 <?php endif; ?>
 

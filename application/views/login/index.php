@@ -3,7 +3,7 @@
 
     <!-- Outer Row -->
     <div class="row justify-content-center">
-        <!-- contanier principal col-x1-6 fica mais no centro
+        <!-- col-x1-6 ele aumentar ou diminui o contanier principal que fica mais no centro-->
         <div class="col-xl-6 col-lg-12 col-md-9">
 
         <!-- centralizando o card de login margim top 5-->
@@ -33,7 +33,8 @@
                             </div>
 
                             <!-- usando o metodo post para os dados não ir pela url -->
-                            <form class="user" name="form_index" method="POST">                                         
+                            <!-- metodo responsavel por validar entrada de dados vinda do formulário -->
+                            <form class="user" name="form_auth" method="POST" action="<?php echo base_url('login/auth');?>">                                         
 
                                 <div class="form-group">
                                     <input type="email" name="email" class="form-control form-control-user" placeholder="Entre com seu e-mail">
@@ -42,9 +43,7 @@
                                 <div class="form-group">
                                     <input type="password" name="password" class="form-control form-control-user" placeholder="Entre com sua senha">
                                 </div>
-
                                 <button type="submit" class="btn btn-primary btn-user btn-block">Entrar</button>
-
                             </form>
                         </div>
                     </div>
