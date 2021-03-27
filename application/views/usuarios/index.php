@@ -85,12 +85,12 @@
                                                 <span aria-hidden="true">×</span>
                                             </button>
                                         </div>
-                                        
+
                                         <div class="modal-body">Para excluir o registro clique em "Sim" </div>
-                                        
+
                                         <div class="modal-footer">
                                             <button title="Não" class="btn btn-secondary btn-sm" type="button" data-dismiss="modal">Não</button>
-                                            <a  title="Sim" class="btn btn-danger btn-sm" href="<?php echo base_url('usuarios/del/'. $user->id);?>">Sim</a>
+                                            <a  title="Sim" class="btn btn-danger btn-sm" href="<?php echo base_url('usuarios/del/' . $user->id); ?>">Sim</a>
                                         </div>
                                     </div>
                                 </div>
