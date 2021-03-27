@@ -70,7 +70,6 @@
                                     <td class="text-right">
                                         <!-- LINK PARA QUE SEJA CARREGADO A TELA DE EDIÇÃO DO USUARIO -->
                                         <a title="Editar" href="<?php echo base_url('usuarios/edit/' . $user->id); ?>" class="btn btn-sm btn-primary"><i class="fas fa-user-edit"></i></a>
-
                                         <a title="Excluir" href="javascript(void)" data-toggle="modal" data-target="#user-<?php echo $user->id; ?>" class="btn btn-sm btn-danger"><i class="fas fa-user-times"></i></a>
                                     </td>
                                 </tr>

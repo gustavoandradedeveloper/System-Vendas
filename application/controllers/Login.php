@@ -1,5 +1,6 @@
 <?php
 
+//definindo o caminho base caso não exista ele mostra a mensagem ação não permitida.
 defined('BASEPATH') OR exit('Ação não permitida');
 
 class Login extends CI_Controller {
@@ -17,6 +18,7 @@ class Login extends CI_Controller {
         if ($this->ion_auth->login($identity, $password, $remember)) {
             redirect('home');
         } else {
+            //carregando as views
             echo 'Erro de validação ';
             $this->load->view('layout/header');
             $this->load->view('login/index');
