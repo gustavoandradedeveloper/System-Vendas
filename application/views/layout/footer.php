@@ -1,3 +1,5 @@
+<!-- recupera a informação do controle da view-->
+<?php if(!$this->router->fetch_class() == 'login'): ?>
 <!-- Footer -->
 <footer class="sticky-footer bg-white">
     <div class="container my-auto">
@@ -8,6 +10,7 @@
 </footer>
 <!-- End of Footer -->
 
+<?php endif; ?>
 </div>
 <!-- End of Content Wrapper -->
 
@@ -51,13 +54,13 @@
 
 <?php if (isset($scripts)): ?>
 
-    <?php foreach ($scripts as $script): ?>
+<?php foreach ($scripts as $script): ?>
 
-        <!-- Custom scripts for all pages-->
-        <script src="<?php echo base_url('public/' . $script); ?>"></script>
+<!-- Custom scripts for all pages-->
+<script src="<?php echo base_url('public/' . $script); ?>"></script>
 
 
-    <?php endforeach; ?>
+<?php endforeach; ?>
 
 <?php endif; ?>
 

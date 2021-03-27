@@ -11,24 +11,24 @@ class Login extends CI_Controller {
           [email] => gugatavinho066@gmail.com
           [password] => 123
          */
-
-        $identity = $this->security->xss_clean($this->input->post('email'));
+        
+        //A identidade é chave para login, nesse caso aqui é o email 
+        $identity = $this->security->xss_clean($this->input->post('email')); 
+        //aqui é a senha (security->xss_clean faz a limpeza)
         $password = $this->security->xss_clean($this->input->post('password'));
-        $remember = False; // remember the user
+        $remember = False; // lembrar usuário
+        
+        //se o usuário logar, redireciona para home da parte adm 
         if ($this->ion_auth->login($identity, $password, $remember)) {
             redirect('home');
         } else {
-            //carregando as views
-            echo 'Erro de validação ';
+            //se não carregar as views de login 
+            $this->session->set_flashdata('error','Verifique seu email ou senha');
             $this->load->view('layout/header');
             $this->load->view('login/index');
+            $this->load->view('layout/footer');
         }
-
         /*
-          echo'<pre>';
-          print_r($this->input->post());
-          exit();
-
           printando na tela tudo que está sendo enviado pelo controlador expecificadamente para o metodo index
          */
     }
