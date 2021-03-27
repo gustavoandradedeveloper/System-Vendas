@@ -60,6 +60,34 @@ class Usuarios extends CI_Controller {
         $this->form_validation->set_rules('confirm_password', 'confirme', 'matches[password]'); // verifica se o campo confirm_password e igual a password 
 
         if ($this->form_validation->run()) {
+            $username = $this->security->xss_clean($this->input->post('username'));
+            $password = $this->security->xss_clean($this->input->post('password'));
+            $email = $this->security->xss_clean($this->input->post('email'));
+
+            $additional_data = array(
+                'first_name' => $this->input->post('first_name'),
+                'username' => $this->input->post('username'),
+                'last_name' => $this->input->post('last_name'),
+                'active' => $this->input->post('active'),
+            );
+            $group = array($this->input->post('perfil_usuario')); // Sets user to admin.
+
+            $additional_data = $this->security->xss_clean($additional_data);
+
+            $group = $this->security->xss_clean($group);
+
+            if ($this->ion_auth->register($username, $password, $email, $additional_data, $group)) {
+
+                $this->session->set_flashdata('sucesso', 'Dados salvos com sucesso');
+            } else {
+                $this->session->set_flashdata('erro', 'Erro ao salvar os dados');
+            }
+
+            redirect('usuarios');
+            //echo '<pre>';
+            //print_r($additional_data);
+            //exit();
+
 
             exit('Validado');
         } else {
