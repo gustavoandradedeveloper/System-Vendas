@@ -43,6 +43,8 @@
                                     <input type="password" name="password" class="form-control form-control-user" placeholder="Entre com sua senha">
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-user btn-block">Entrar</button>
+
+                                <a class="text-center" href="<?php echo base_url('site/');?>" >volta para o site</a>
                             </form>
                         </div>
                     </div>
