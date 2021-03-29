@@ -107,7 +107,7 @@
 
     <!-- Nav Item - Charts -->
     <li class="nav-item">
-        <a class="nav-link" href="http://localhost/meus-projetos/system-vendas/usuarios">
+        <a class="nav-link" href="<?php echo base_url('usuarios/');?>">
             <i class="fas fa-users"></i>
             <span>Usuários</span></a>
     </li>
