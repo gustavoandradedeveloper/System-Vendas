@@ -13,7 +13,7 @@
 	
 	----------------Configurando o BD---------------------------	
 	feito isso vamos configurar o banco de dados agora!
-	1- faça o download do arquivo sql que iremos disponibilzar aqui no  github
+	1- faça o download do arquivo sql que iremos disponibilzar aqui no  github junto com o projeto; Nome do arquivo --> (techmanager.sql)
 	2- abra o xampp start o (apache e mysql)
 	3- abra o phpMyAdmin no seu navegador -> http://localhost/phpmyadmin/server_databases.php
 	4- Crie um novo banco de dados com o nome (techmanager) tudo junto e em minúsculo; (utf8mb4_general_ci)
