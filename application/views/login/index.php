@@ -44,7 +44,7 @@
                                 <button type="submit" class="btn btn-primary btn-user btn-block">Entrar</button>            
                                 <hr>
                                 <div class="text-center">
-                                    <a class="small" href="<?php echo base_url('site/');?>">volta para o site</a>
+                                    <a style=" font-size: 16px" class="small" href="<?php echo base_url('site/');?>">volta para o site</a>
                                 </div>
                                 
                             </form>
