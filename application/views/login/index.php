@@ -38,13 +38,15 @@
                                 <div class="form-group">
                                     <input type="email" name="email" class="form-control form-control-user" placeholder="Entre com seu e-mail">
                                 </div>
-
                                 <div class="form-group">
                                     <input type="password" name="password" class="form-control form-control-user" placeholder="Entre com sua senha">
                                 </div>
-                                <button type="submit" class="btn btn-primary btn-user btn-block">Entrar</button>
-
-                                <a class="text-center" href="<?php echo base_url('site/');?>" >volta para o site</a>
+                                <button type="submit" class="btn btn-primary btn-user btn-block">Entrar</button>            
+                                <hr>
+                                <div class="text-center">
+                                    <a class="small" href="<?php echo base_url('site/');?>">volta para o site</a>
+                                </div>
+                                
                             </form>
                         </div>
                     </div>
