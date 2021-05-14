@@ -7,7 +7,11 @@ class Usuarios extends CI_Controller {
     public function __construct() {
         parent::__construct();
 
-        //definir se há sessão
+        if (!$this->ion_auth->logged_in())
+        {
+            $this->session->set_flashdata('info','Sua sessão expirou!');
+          redirect('login');
+        }
     }
 
     //responsavel por chamar a view que vai apresentar no navegador os usuarios cadastrado -> vai mostrar em uma tabela
