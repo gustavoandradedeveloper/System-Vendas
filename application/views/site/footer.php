@@ -2,7 +2,7 @@
    <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright ©  TechManager 2021 - Todos os direitos reservados</div>
+                    <div class="col-lg-4 text-lg-left">Copyright ©  TechManager - 2021 - Todos os direitos reservados</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -33,7 +33,7 @@
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
                                     <p>Nossos sistemas são criados com a melhor e mais atual tecnologia do mercado, seguindo os melhores padrões de desenvolvimento e buscando sempre a melhor experiencia com o usuário</p>
                                     <ul class="list-inline">
-                                        <li>Data: Março, 2021</li>
+                                        <li>Data: Maio, 2021</li>
                                         <li>Modelo: Lista</li>
                                         <li>Categoria: Demonstração</li>
                                     </ul>
@@ -65,9 +65,9 @@
                                     <h2 class="text-uppercase">Sistemas Web</h2>
                                     <p class="item-intro text-muted">Explore um pouco mais sobre nossos Sistemas e Plataformas Web.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
-                                    <p>Nossos sistemas e plataformas Web são desenvolvidos totalmente sob medida, proporcionando assim uma melhor a melhor interação e usabilidade.</p>
+                                    <p>Sistemas e plataformas desenvolvidos sob medida, proporcionando a melhor experiência possível.</p>
                                     <ul class="list-inline">
-                                        <li>Data: Março, 2021</li>
+                                        <li>Data: Maio, 2021</li>
                                         <li>Modelo: Lista</li>
                                         <li>Categoria: Demonstração</li>
                                     </ul>
@@ -101,7 +101,7 @@
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
                                     <p>No processo de desenvolvimento e design dos nossos sites, sempre priorizamos a qualidade que só a TechManager pode oferecer.</p>
                                     <ul class="list-inline">
-                                        <li>Data: Março, 2021</li>
+                                        <li>Data: Maio, 2021</li>
                                         <li>Modelo: Lista</li>
                                         <li>Categoria: Demonstração</li>
                                     </ul>
@@ -135,7 +135,7 @@
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
                                     <p>Use this area to describe your project.</p>
                                     <ul class="list-inline">
-                                        <li>Data: Março, 2021</li>
+                                        <li>Data: Maio, 2021</li>
                                         <li>Cliente: Lista</li>
                                         <li>Categoria: Demonstração</li>
                                     </ul>
@@ -169,7 +169,7 @@
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
                                     <p>Use this area to describe your project. </p>
                                     <ul class="list-inline">
-                                        <li>Data: Março, 2021</li>
+                                        <li>Data: Maio, 2021</li>
                                         <li>Cliente: Lista</li>
                                         <li>Categoria: Demonstração</li>>
                                     </ul>
@@ -203,7 +203,7 @@
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
                                     <p>Use this area to describe your project.</p>
                                     <ul class="list-inline">
-                                        <li>Data: Março, 2021</li>
+                                        <li>Data: Maio, 2021</li>
                                         <li>Cliente: Lista</li>
                                         <li>Categoria: Demonstração</li>
                                     </ul>
