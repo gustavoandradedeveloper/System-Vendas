@@ -28,7 +28,7 @@
                             <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Segurança Digital</h4>
-                        <p class="text-muted">O sistema oferece a melhor proteção digital de dados e um conjunto de barreiras de proteção mara maior proteção do usuário.</p>
+                        <p class="text-muted">O sistema oferece a melhor proteção digital de dados e um conjunto de barreiras de proteção para maior proteção do usuário.</p>
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Sites e Blogs</div>
-                                <div class="portfolio-caption-subheading text-muted">Conheça nossos sites, blogs e nosso campo de design e desenvolvimento web.</div>
+                                <div class="portfolio-caption-subheading text-muted">Conheça nossos sites, blogs e nosso área de design e desenvolvimento web.</div>
                             </div>
                         </div>
                     </div>
