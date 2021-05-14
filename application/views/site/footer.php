@@ -131,7 +131,7 @@
 
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">Linhas</h2>
-                                    <p class="item-intro text-muted">Tudo sobre nossos mais variados projetos.</p>
+                                    <p class="item-intro text-muted">Tudo sobre nossos projetos.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
                                     <p>Use this area to describe your project.</p>
                                     <ul class="list-inline">
