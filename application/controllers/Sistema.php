@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit ('Ação não permitida');
 class Sistema extends CI_Controller{
 
     public function __construct() {
-        parent: : __construct();
+        parent:: __construct();
 
         //serve para fazer o redirecionamento da pagina AMD caso o usuario tente acessar a parte ADM sem está logado na plataforma
         if (!$this->ion_auth->logged_in())
@@ -13,6 +13,7 @@ class Sistema extends CI_Controller{
             $this->session->set_flashdata('info','Sua sessão expirou!');
             redirect('login');
         }
+    }
       
         public function index(){
 
@@ -24,12 +25,12 @@ class Sistema extends CI_Controller{
             echo'<pre>';
             print_r($data['sistema']);
             exit();
-            
+
             $this->load->view('layout/header',$data);
             $this->load->view('sistema/index');
             $this->load->view('layout/footer');
 
-        }
+        
 
 
     }
