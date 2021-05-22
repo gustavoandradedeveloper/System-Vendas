@@ -53,23 +53,23 @@
                         <!-- col-md-4 tamanho do campo de texto -->
                         <div class="col-md-3">
                             <label>CNPJ</label>
-                                <input type="text" class="form-control" 
-                                name="sistema_cnpj" placeholder="CNPJ" 
-                                value="<?php echo $sistema->sistema_cnpj; ?>">
-                                <?php echo form_error('sistema_cnpj', '<small class="form-text text-danger">', ' </small>'); ?>
+                            <input type="text" class="form-control" 
+                                   name="sistema_cnpj" placeholder="CNPJ" 
+                                   value="<?php echo $sistema->sistema_cnpj; ?>">
+                                   <?php echo form_error('sistema_cnpj', '<small class="form-text text-danger">', ' </small>'); ?>
                         </div>
 
                         <div class="col-md-3">
                             <label>Inscrição estadual</label>
-                                <input type="text" class="form-control" 
-                                name="sistema_ie" placeholder="Inscrição estadual" 
-                                value="<?php echo $sistema->sistema_ie; ?>">
-                                <?php echo form_error('sistema_ie', '<small class="form-text text-danger">', ' </small>'); ?>
+                            <input type="text" class="form-control" 
+                                   name="sistema_ie" placeholder="Inscrição estadual" 
+                                   value="<?php echo $sistema->sistema_ie; ?>">
+                                   <?php echo form_error('sistema_ie', '<small class="form-text text-danger">', ' </small>'); ?>
                         </div>
 
 
                     </div>
-                    
+
                     <div class="form-group row mb-3">
 
                         <div class="col-md-3">
@@ -100,23 +100,23 @@
                         <!-- col-md-4 tamanho do campo de texto -->
                         <div class="col-md-3">
                             <label>URL do site</label>
-                                <input type="text" class="form-control" 
-                                name="sistema_site_url" placeholder="URL do site" 
-                                value="<?php echo $sistema->sistema_site_url; ?>">
-                                <?php echo form_error('sistema_site_url', '<small class="form-text text-danger">', ' </small>'); ?>
+                            <input type="text" class="form-control" 
+                                   name="sistema_site_url" placeholder="URL do site" 
+                                   value="<?php echo $sistema->sistema_site_url; ?>">
+                                   <?php echo form_error('sistema_site_url', '<small class="form-text text-danger">', ' </small>'); ?>
                         </div>
 
                         <div class="col-md-3">
                             <label>E-mail de contato</label>
-                                <input type="text" class="form-control" 
-                                name="sistema_email" placeholder="E-mail de contato" 
-                                value="<?php echo $sistema->sistema_email; ?>">
-                                <?php echo form_error('sistema_email', '<small class="form-text text-danger">', ' </small>'); ?>
+                            <input type="text" class="form-control" 
+                                   name="sistema_email" placeholder="E-mail de contato" 
+                                   value="<?php echo $sistema->sistema_email; ?>">
+                                   <?php echo form_error('sistema_email', '<small class="form-text text-danger">', ' </small>'); ?>
                         </div>
 
 
                     </div>
-                    
+
                     <div class="form-group row">
                         <div class="col-md-3">
                             <label>Endereço</label>
@@ -131,38 +131,48 @@
                         <!-- col-md-4 tamanho do campo de texto -->
                         <div class="col-md-2">
                             <label>CEP</label>
-                                <input type="text" class="form-control" 
-                                name="sistema_cep" placeholder="CEP" 
-                                value="<?php echo $sistema->sistema_cep; ?>">
-                                <?php echo form_error('sistema_cep', '<small class="form-text text-danger">', ' </small>'); ?>
+                            <input type="text" class="form-control" 
+                                   name="sistema_cep" placeholder="CEP" 
+                                   value="<?php echo $sistema->sistema_cep; ?>">
+                                   <?php echo form_error('sistema_cep', '<small class="form-text text-danger">', ' </small>'); ?>
                         </div>
 
                         <div class="col-md-2">
                             <label>Número</label>
-                                <input type="text" class="form-control" 
-                                name="sistema_numero" placeholder="Número" 
-                                value="<?php echo $sistema->sistema_numero; ?>">
-                                <?php echo form_error('sistema_numero', '<small class="form-text text-danger">', ' </small>'); ?>
+                            <input type="text" class="form-control" 
+                                   name="sistema_numero" placeholder="Número" 
+                                   value="<?php echo $sistema->sistema_numero; ?>">
+                                   <?php echo form_error('sistema_numero', '<small class="form-text text-danger">', ' </small>'); ?>
                         </div>
-
                         <div class="col-md-3">
                             <label>Cidade</label>
-                                <input type="text" class="form-control" 
-                                name="sistema_cidade" placeholder="Cidade" 
-                                value="<?php echo $sistema->sistema_cidade; ?>">
-                                <?php echo form_error('sistema_cidade', '<small class="form-text text-danger">', ' </small>'); ?>
+                            <input type="text" class="form-control" 
+                                   name="sistema_cidade" placeholder="Cidade" 
+                                   value="<?php echo $sistema->sistema_cidade; ?>">
+                                   <?php echo form_error('sistema_cidade', '<small class="form-text text-danger">', ' </small>'); ?>
                         </div>
 
                         <div class="col-md-1">
                             <label>UF</label>
-                                <input type="text" class="form-control" 
-                                name="sistema_estado" placeholder="UF" 
-                                value="<?php echo $sistema->sistema_estado; ?>">
-                                <?php echo form_error('sistema_estado', '<small class="form-text text-danger">', ' </small>'); ?>
+                            <input type="text" class="form-control" 
+                                   name="sistema_estado" placeholder="UF" 
+                                   value="<?php echo $sistema->sistema_estado; ?>">
+                                   <?php echo form_error('sistema_estado', '<small class="form-text text-danger">', ' </small>'); ?>
                         </div>
 
 
                     </div>
+
+                    <div class="form-group row">
+
+                        <div class="col-md-12">
+                            <label>Texto da ordem de serviço e vendas</label>
+                            <textarea class="form-control" name="sistema_txt_ordem_servico" placeholder="Texto da ordem de serviço e vendas"></textarea>
+                            <?php echo form_error('sistema_txt_ordem_servico', '<small class="form-text text-danger">', ' </small>'); ?>
+                        </div>
+
+                    </div>
+
                     <button type="submit" class="btn btn-primary btn-sm">Salvar</button>
                 </form>
 
