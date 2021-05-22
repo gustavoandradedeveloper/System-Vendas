@@ -49,6 +49,8 @@
 
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre</a></li>
 
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Portfolio">Portfólio</a></li>
+
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Time</a></li>
 
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contato</a></li>
