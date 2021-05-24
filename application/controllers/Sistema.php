@@ -19,6 +19,11 @@ class Sistema extends CI_Controller {
         $data = array(
             'titulo' => 'Editar informações do sistema',
             'sistema' => $this->core_model->get_by_id('sistema', array('sistema_id' => 1)),
+            
+            'scripts'=> array(
+                'vendor/mask/jquery.mask.min.js',
+                'vendor/mask/app.js'
+            ),
         );
         $this->form_validation->set_rules('sistema_razao_social', 'Razão social', 'required|min_length[10] |max_length[145]');
         $this->form_validation->set_rules('sistema_nome_fantasia', 'Nome fantasia', 'required|min_length[10] |max_length[145]');
@@ -89,7 +94,7 @@ class Sistema extends CI_Controller {
                     ), $this->input->post()
             );
             
-            //limpando array
+            //limpando array evitando erros de java scripts (removendo trecho de codigo que possar trazer problemas para o sistema ao salvar)
             $data =  html_escape($data);
             
             $this->core_model->update('sistema', $data, array('sistema_id' => 1));
