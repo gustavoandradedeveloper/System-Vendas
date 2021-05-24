@@ -40,7 +40,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfólio</h2>
-                    <h3 class="section-subheading text-muted">Conheça nossas criações.</h3>
+                    <h3 class="section-subheading text-muted">Conheça um pouco mais sobre nossos projetos.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">

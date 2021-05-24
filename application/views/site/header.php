@@ -64,8 +64,8 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Bem-vindo ao nosso sistema de vendas!</div>
+                <div class="masthead-subheading">Seja bem-vindo a nossa plataforma!</div>
                 <div class="masthead-heading text-uppercase">Prazer em conhecê-lo</div>
-                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Me diga mais</a>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Mostre-me mais</a>
             </div>
         </header>
