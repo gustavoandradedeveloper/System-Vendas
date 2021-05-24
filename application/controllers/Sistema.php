@@ -48,9 +48,33 @@ class Sistema extends CI_Controller {
           exit();
          */
 
-        $this->load->view('layout/header', $data);
-        $this->load->view('sistema/index');
-        $this->load->view('layout/footer');
+        $this->form_validation->set_rules('sistema_razao_social', 'Razão social','required|min_length[10] |max_length[145]');
+        $this->form_validation->set_rules('sistema_nome_fantasia','Nome fantasia','required|min_length[10] |max_length[145]');
+        $this->form_validation->set_rules('sistema_cnpj', 'CNPJ', 'required|exact_length[18]');
+        $this->form_validation->set_rules('sistema_telefone_fixo', '', 'required|max_length[25]');
+        $this->form_validation->set_rules('sistema_telefone_movel', '', 'required|max_length[25]');
+        $this->form_validation->set_rules('sistema_email', '', 'required|valid_email|max_length[100]');
+        $this->form_validation->set_rules('sistema_site_url', 'URL do site', 'required|valid_url|max_length[100]');
+        $this->form_validation->set_rules('sistema_cep', 'CEP', 'required|exact_length[9]');
+        $this->form_validation->set_rules('sistema_endereco', 'Endereço', 'required|max_length[145]');
+        $this->form_validation->set_rules('sistema_numero', 'Número', 'required|max_length[25]');
+        $this->form_validation->set_rules('sistema_cidade', 'Cidade', 'required|max_length[45]');
+        $this->form_validation->set_rules('sistema_estado', 'UF', 'required|exact_length[2]');
+        $this->form_validation->set_rules('sistema_txt_ordem_servico', 'Texto da ordem de serviços e vendas', 'max_length[500]');
+        
+        // "exact_length" O campo {field} deve conter exatamente {param} caractere(s)
+        //regras para validação -> vinda do arquivo form_validation_lang.php
+
+        
+        if ($this->form_validation->run()) {
+            echo '<pre>';
+            print_r($this->input->post());
+            exit();
+        } else {
+            $this->load->view('layout/header', $data);
+            $this->load->view('sistema/index');
+            $this->load->view('layout/footer');
+        }
     }
 
 }
