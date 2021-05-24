@@ -88,7 +88,10 @@ class Sistema extends CI_Controller {
                 'sistema_txt_ordem_servico',
                     ), $this->input->post()
             );
-
+            
+            //limpando array
+            $data =  html_escape($data);
+            
             $this->core_model->update('sistema', $data, array('sistema_id' => 1));
             // vai ser igual '=> 1 ' porque só vai ter um registro desse nesse meu sistema e ele vai ser apenas atualizado
             redirect('sistema');
