@@ -6,7 +6,7 @@
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('home/')?>">
         <div class="sidebar-brand-text mx-3">Tech Manager <sup></sup></div>
     </a>
-
+    
     <!-- Divider -->
     <hr class="sidebar-divider my-0">
 
@@ -51,7 +51,7 @@
         <div id="collapseCadastro" class="collapse" aria-labelledby="headingT" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">ESCOLHA UMA OPÇÃO:</h6>
-                <a class="collapse-item" href="#">Clientes</a>
+                <a class="collapse-item" href="<?php echo base_url('clientes')?>">Clientes</a>
                 <a class="collapse-item" href="#">Fornecedores</a>
                 <a class="collapse-item" href="#">Vendedores</a>
                 <a class="collapse-item" href="#">Serviços</a>

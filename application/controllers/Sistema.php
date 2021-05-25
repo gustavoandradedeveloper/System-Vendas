@@ -20,6 +20,7 @@ class Sistema extends CI_Controller {
             'titulo' => 'Editar informações do sistema',
             'sistema' => $this->core_model->get_by_id('sistema', array('sistema_id' => 1)),
             
+            //Adicionei esse plugin para que ele faça a  mascara em alguns campos
             'scripts'=> array(
                 'vendor/mask/jquery.mask.min.js',
                 'vendor/mask/app.js'
@@ -93,9 +94,9 @@ class Sistema extends CI_Controller {
                 'sistema_txt_ordem_servico',
                     ), $this->input->post()
             );
-            
+            $data = html_escape($data);
             //limpando array evitando erros de java scripts (removendo trecho de codigo que possar trazer problemas para o sistema ao salvar)
-            $data =  html_escape($data);
+            
             
             $this->core_model->update('sistema', $data, array('sistema_id' => 1));
             // vai ser igual '=> 1 ' porque só vai ter um registro desse nesse meu sistema e ele vai ser apenas atualizado
