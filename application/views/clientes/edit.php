@@ -22,14 +22,15 @@
             <!-- Esse card tem 12 colunas ou seja, dar pra colocar 3 campos de mb-4  que o total dar mb-12 -->
             <div class="card-body">
                 <form class="user" method="POST" name="form_edit">
-
+                    
+                    <p><strong><i class="fas fa-clock"></i>&nbsp;&nbsp;Última alteração:</strong>&nbsp;<?php echo formata_data_banco_com_hora($cliente->cliente_data_alteracao);?></p>
                     <fieldset class="mt-4 border p-2">
                         <legend class="font-small"><i class="fas fa-user-tie"></i>&nbsp;Dados pessoais</legend>
                         <!-- =============================================PRIMEIRA LINHA================================================== -->  
                         <div class="form-group row mb-3">
                             <!--MB margem boot a distancia entre as linhas-->
 
-                            <div class="col-md-5 mb-3">
+                            <div class="col-md-3 mb-3">
                                 <label>Nome</label>
                                 <!-- name="first_name" nome da coluna do BD -->    
                                 <!-- value="php echo $cliente->first_name ">    
@@ -44,7 +45,7 @@
                             </div>
 
 
-                            <div class="col-md-5">
+                            <div class="col-md-6">
                                 <label>Sobrenome</label>
 
                                 <input type="text" class="form-control form-control-user" 
@@ -54,9 +55,9 @@
                                 <div id="emailHelp" class="form-text"></div>
                             </div>
 
-                            <div class="col-md-2">
+                            <div class="col-md-3">
                                 <label>Data nascimento</label>
-                                <input type="date" class="form-control form-control-user" 
+                                <input type="date" class="form-control form-control-user-date" 
                                        name="cliente_data_nascimento" 
                                        value="<?php echo $cliente->cliente_data_nascimento; ?>">
                                        <?php echo form_error('cliente_data_nascimento', '<small class="form-text text-danger">', ' </small>'); ?>
@@ -194,7 +195,7 @@
                         <div class="form-group row">
                             <div class="col-md-4">
                                 <label>Cliente Ativo</label>
-                                <select class="form-control" name="cliente_ativo">
+                                <select class="custom-select" name="cliente_ativo">
                                     <option value="0"<?php echo $cliente->cliente_ativo == 0 ? 'selected' : '' ?>>Não</option>
                                     <option value="1"<?php echo $cliente->cliente_ativo == 1 ? 'selected' : '' ?>>Sim</option>
                                 </select>
