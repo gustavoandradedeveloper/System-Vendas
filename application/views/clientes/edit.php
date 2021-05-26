@@ -38,7 +38,7 @@
                                        <?php echo form_error('cliente_nome', '<small class="form-text text-danger">', ' </small>'); ?>
                             </div>
 
-                            
+
                             <div class="col-md-5">
                                 <label>Sobrenome</label>
                                 <input type="text" class="form-control form-control-user " 
@@ -65,14 +65,17 @@
                             <div class="col-md-3">
                                 <?php if ($cliente->cliente_tipo == 1): ?>
                                     <label>CPF</label>
-                                <?php else: ?>
+                                    <input type="text" class="form-control form-control-user cpf" 
+                                           name="cliente_cpf" placeholder="<?php echo ($cliente->cliente_tipo == 1 ? 'CPF do do cliente' : 'CNPJ do cliente') ?>" 
+                                           value="<?php echo $cliente->cliente_cpf_cnpj; ?>">
+                                           <?php echo form_error('cliente_cpf', '<small class="form-text text-danger">', ' </small>'); ?>
+                                       <?php else: ?>
                                     <label>CNPJ</label>
-                                <?php endif; ?>
-                                <input type="text" class="form-control form-control-user cnpj" 
-                                       name="cliente_cpf_cnpj" placeholder="<?php echo ($cliente->cliente_tipo == 1 ? 'CPF do do cliente' : 'CNPJ do cliente') ?>" 
-                                       value="<?php echo $cliente->cliente_cpf_cnpj; ?>">
-                                       <?php echo form_error('cliente_cpf_cnpj', '<small class="form-text text-danger">', ' </small>'); ?>
-                                <div id="emailHelp" class="form-text"></div>
+                                    <input type="text" class="form-control form-control-user cnpj" 
+                                           name="cliente_cnpj" placeholder="<?php echo ($cliente->cliente_tipo == 1 ? 'CPF do do cliente' : 'CNPJ do cliente') ?>" 
+                                           value="<?php echo $cliente->cliente_cpf_cnpj; ?>">
+                                           <?php echo form_error('cliente_cnpj', '<small class="form-text text-danger">', ' </small>'); ?>
+                                       <?php endif; ?>
                             </div>
 
                             <div class="col-md-3">
