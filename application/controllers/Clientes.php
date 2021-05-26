@@ -66,8 +66,8 @@ class Clientes extends CI_Controller {
               [cliente_data_alteracao] => 2021-05-24 20:23:05
              */
             //trim remove os espaços
-            $this->form_validation->set_rules('cliente_nome', '', 'trim|required|min_length[4]max_length[45]');
-            $this->form_validation->set_rules('cliente_sobrenome', '', 'trim|required|min_length[4]max_length[150]');
+            $this->form_validation->set_rules('cliente_nome', '', 'trim|required|min_length[4]|max_length[45]');
+            $this->form_validation->set_rules('cliente_sobrenome', '', 'trim|required|min_length[4]|max_length[150]');
             //apenas required ou seja só obrigatorio
             $this->form_validation->set_rules('cliente_data_nascimento', '', 'trim|required');
             $this->form_validation->set_rules('cliente_cpf_cnpj', '', 'trim|required|exact_length[18]');

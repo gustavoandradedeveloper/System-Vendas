@@ -22,8 +22,8 @@
             <!-- Esse card tem 12 colunas ou seja, dar pra colocar 3 campos de mb-4  que o total dar mb-12 -->
             <div class="card-body">
                 <form class="user" method="POST" name="form_edit">
-                    
-                    <p><strong><i class="fas fa-clock"></i>&nbsp;&nbsp;Última alteração:</strong>&nbsp;<?php echo formata_data_banco_com_hora($cliente->cliente_data_alteracao);?></p>
+
+                    <p><strong><i class="fas fa-clock"></i>&nbsp;&nbsp;Última alteração:</strong>&nbsp;<?php echo formata_data_banco_com_hora($cliente->cliente_data_alteracao); ?></p>
                     <fieldset class="mt-4 border p-2">
                         <legend class="font-small"><i class="fas fa-user-tie"></i>&nbsp;Dados pessoais</legend>
                         <!-- =============================================PRIMEIRA LINHA================================================== -->  
@@ -32,28 +32,21 @@
 
                             <div class="col-md-3 mb-3">
                                 <label>Nome</label>
-                                <!-- name="first_name" nome da coluna do BD -->    
-                                <!-- value="php echo $cliente->first_name ">    
-                                informação vinda do banco 
-                                -->
                                 <input type="text" class="form-control form-control-user" 
-
                                        name="cliente_nome" placeholder="Nome do cliente" 
-
                                        value="<?php echo $cliente->cliente_nome; ?>">
                                        <?php echo form_error('cliente_nome', '<small class="form-text text-danger">', ' </small>'); ?>
                             </div>
 
-
-                            <div class="col-md-6">
+                            
+                            <div class="col-md-5">
                                 <label>Sobrenome</label>
-
-                                <input type="text" class="form-control form-control-user" 
+                                <input type="text" class="form-control form-control-user " 
                                        name="cliente_sobrenome" placeholder="Sobrenome do cliente" 
                                        value="<?php echo $cliente->cliente_sobrenome; ?>">
                                        <?php echo form_error('cliente_sobrenome', '<small class="form-text text-danger">', ' </small>'); ?>
                                 <div id="emailHelp" class="form-text"></div>
-                            </div>
+                            </div> 
 
                             <div class="col-md-3">
                                 <label>Data nascimento</label>
@@ -70,18 +63,26 @@
 
                         <div class="form-group row mb-3">
                             <div class="col-md-3">
-                                <label>CPF ou CNPJ</label>
+                                <?php if ($cliente->cliente_tipo == 1): ?>
+                                    <label>CPF</label>
+                                <?php else: ?>
+                                    <label>CNPJ</label>
+                                <?php endif; ?>
                                 <input type="text" class="form-control form-control-user cnpj" 
-                                       name="cliente_cpf_cnpj" placeholder="CPF ou CNPJ" 
+                                       name="cliente_cpf_cnpj" placeholder="<?php echo ($cliente->cliente_tipo == 1 ? 'CPF do do cliente' : 'CNPJ do cliente') ?>" 
                                        value="<?php echo $cliente->cliente_cpf_cnpj; ?>">
                                        <?php echo form_error('cliente_cpf_cnpj', '<small class="form-text text-danger">', ' </small>'); ?>
                                 <div id="emailHelp" class="form-text"></div>
                             </div>
 
                             <div class="col-md-3">
-                                <label>RG ou I.E</label>
+                                <?php if ($cliente->cliente_tipo == 1): ?>
+                                    <label>RG</label>
+                                <?php else: ?>
+                                    <label>Inscrição estadual</label>
+                                <?php endif; ?>
                                 <input type="text" class="form-control form-control-user" 
-                                       name="cliente_rg_ie" placeholder="RG ou I.E" 
+                                       name="cliente_rg_ie" placeholder="<?php echo ($cliente->cliente_tipo == 1 ? 'RG do do cliente' : 'Inscrição estadual do cliente') ?>" 
                                        value="<?php echo $cliente->cliente_rg_ie; ?>">
                                        <?php echo form_error('cliente_rg_ie', '<small class="form-text text-danger">', ' </small>'); ?>
                                 <div id="emailHelp" class="form-text"></div>
@@ -124,14 +125,15 @@
                         <legend class="font-small"><i class="fas fa-map-marker-alt"></i></i>&nbsp;Dados de endereço</legend>
 
                         <div class="form-group row mb-3">
-                            <div class="col-md-6">
+
+                            <div class="col-md-4">
                                 <label>Endereço</label>
-                                <input type="text" class="form-control form-control-user cep" 
+                                <input type="text" class="form-control form-control-user " 
                                        name="cliente_endereco" placeholder="Endereço" 
                                        value="<?php echo $cliente->cliente_endereco; ?>">
                                        <?php echo form_error('cliente_endereco', '<small class="form-text text-danger">', ' </small>'); ?>
                                 <div id="emailHelp" class="form-text"></div>
-                            </div>
+                            </div> 
 
                             <div class="col-md-2">
                                 <label>Número</label>
@@ -142,7 +144,7 @@
                                 <div id="emailHelp" class="form-text"></div>
                             </div>
 
-                            <div class="col-md-3">
+                            <div class="col-md-5">
                                 <label>Complemento</label>
                                 <input type="text" class="form-control form-control-user " 
                                        name="cliente_complemento" placeholder="Complemento" 
@@ -153,13 +155,17 @@
 
                         </div>
 
+
+
                         <div class="form-group row mb-3">
+
                             <div class="col-md-4">
                                 <label>Bairro</label>
-                                <input type="text" class="form-control form-control-user cep" 
+                                <input type="text" class="form-control form-control-user " 
                                        name="cliente_bairro" placeholder="Bairro" 
                                        value="<?php echo $cliente->cliente_bairro; ?>">
                                        <?php echo form_error('cliente_bairro', '<small class="form-text text-danger">', ' </small>'); ?>
+                                <div id="emailHelp" class="form-text"></div>
                             </div>
 
                             <div class="col-md-2">
