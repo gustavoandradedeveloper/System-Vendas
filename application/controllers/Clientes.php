@@ -27,11 +27,6 @@ class Clientes extends CI_Controller {
             ),
             'clientes' => $this->core_model->get_all('clientes'),
         );
-
-//        echo '<pre>';
-//        print_r($data['clientes']);
-//        exit();
-
         $this->load->view('layout/header', $data);
         $this->load->view('clientes/index');
         $this->load->view('layout/footer');
@@ -60,9 +55,6 @@ class Clientes extends CI_Controller {
         if (!empty($this->input->post('cliente_celular'))) {
             $this->form_validation->set_rules('cliente_celular', '', 'trim|max_length[15]|is_unique[clientes.cliente_celular]');
         }
-
-
-
         $this->form_validation->set_rules('cliente_cep', '', 'trim|required|exact_length[9]');
         $this->form_validation->set_rules('cliente_endereco', '', 'trim|required|max_length[155]');
         $this->form_validation->set_rules('cliente_numero_endereco', '', 'trim|max_length[20]');
@@ -124,11 +116,6 @@ class Clientes extends CI_Controller {
                     'js/clientes.js'
                 ),
             );
-
-//                echo '<pre>';
-//                print_r($data['cliente']);
-//                exit();
-
             $this->load->view('layout/header', $data);
             $this->load->view('clientes/add');
             $this->load->view('layout/footer');
@@ -414,7 +401,6 @@ class Clientes extends CI_Controller {
     }
 
     public function del($cliente_id = NULL) {
-
         if (!$cliente_id || !$this->core_model->get_by_id('clientes', array('cliente_id' => $cliente_id))) {
             $this->session->set_flashdata('error', 'Cliente não encontrado');
             redirect('clientes');

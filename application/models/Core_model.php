@@ -121,7 +121,7 @@ class Core_model extends CI_Model {
             $error = $this->db->error();
 
             //se a variavel status for falsa de acordo com a negação " ! "que mudar o valor logico de true para false vai abrir o foreach dentro do erro 
-            if (!status) {
+            if (!'status') {
 
                 //para cada laço do foreach verifica
                 foreach ($erro as $code) {
