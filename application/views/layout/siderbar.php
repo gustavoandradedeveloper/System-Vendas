@@ -52,7 +52,7 @@
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">ESCOLHA UMA OPÇÃO:</h6>
                 <a class="collapse-item" href="<?php echo base_url('clientes')?>"><i class="fas fa-user"></i>&nbsp;&nbsp;Clientes</a>
-                <a class="collapse-item" href="#"><i class="fas fa-user-tag">&nbsp;&nbsp;</i>Fornecedores</a>
+                <a class="collapse-item" href="<?php echo base_url('fornecedores')?>"><i class="fas fa-user-tag">&nbsp;&nbsp;</i>Fornecedores</a>
                 <a class="collapse-item" href="#">Vendedores</a>
                 <a class="collapse-item" href="#">Serviços</a>
             </div>
