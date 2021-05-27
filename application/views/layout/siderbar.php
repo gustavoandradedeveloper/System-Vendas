@@ -45,14 +45,14 @@
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCadastro" aria-expanded="true"
            aria-controls="collapseCadastro">
-            <i class="fas fa-user"></i>
+            <i class="fas fa-database"></i>
             <span>Cadastro</span>
         </a>
         <div id="collapseCadastro" class="collapse" aria-labelledby="headingT" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">ESCOLHA UMA OPÇÃO:</h6>
-                <a class="collapse-item" href="<?php echo base_url('clientes')?>">Clientes</a>
-                <a class="collapse-item" href="#">Fornecedores</a>
+                <a class="collapse-item" href="<?php echo base_url('clientes')?>"><i class="fas fa-user"></i>&nbsp;&nbsp;Clientes</a>
+                <a class="collapse-item" href="#"><i class="fas fa-user-tag">&nbsp;&nbsp;</i>Fornecedores</a>
                 <a class="collapse-item" href="#">Vendedores</a>
                 <a class="collapse-item" href="#">Serviços</a>
             </div>
