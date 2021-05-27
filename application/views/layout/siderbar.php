@@ -45,7 +45,7 @@
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCadastro" aria-expanded="true"
            aria-controls="collapseCadastro">
-            <i class="fas fa-database"></i>
+            <i class="fas fa-user"></i>
             <span>Cadastro</span>
         </a>
         <div id="collapseCadastro" class="collapse" aria-labelledby="headingT" data-parent="#accordionSidebar">
