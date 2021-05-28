@@ -81,7 +81,7 @@
                                     <td><?php echo $venda->forma_pagamento ?></td>
                                     <td><?php echo 'R$&nbsp;' . $venda->venda_valor_total ?></td>
                                     <td class="text-right">
-                                        <a title="Imprimir" href="<?php echo base_url('vendas/pdf/' . $venda->venda_id); ?>" class="btn btn-sm btn-dark"><i class="fas fa-print"></i></a>
+                                        <a title="Imprimir" href="<?php echo base_url('vendas/pdf/' . $venda->venda_id); ?>" class="btn btn-sm btn-dark" target="_blank"><i class="fas fa-print"></i></a>
                                         <a title="Visualizar" href="<?php echo base_url('vendas/edit/' . $venda->venda_id); ?>" class="btn btn-sm btn-primary"><i class="fas fa-eye"></i></a>
                                         <a title="Excluir" href="javascript(void)" data-toggle="modal" data-target="#venda-<?php echo $venda->venda_id; ?>" class="btn btn-sm btn-danger"><i class="far fa-trash-alt"></i></a>
                                     </td>

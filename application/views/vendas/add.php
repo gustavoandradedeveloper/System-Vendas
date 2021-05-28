@@ -101,7 +101,6 @@
                                     <select class="custom-select" id="venda_tipo" name="venda_tipo" required="">
                                         <option value="">Escolha...</option>
                                         <option value="1">Venda à vista</option>
-                                        <option value="2">Venda à prazo</option>
                                     </select>
                                     <?php echo form_error('venda_tipo', '<div class="text-danger small">', '</div>') ?>
                                 </div>

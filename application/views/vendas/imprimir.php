@@ -43,8 +43,8 @@
             <div class="card-body">
 
                 <div class="text-center">
-
-                    <a title="Imprimir venda" href="<?php echo base_url('vendas/pdf/' . $venda->venda_id); ?>" class="btn btn-dark btn-icon-split btn-lg">
+                    <!-- Responsavel por imprimir a venda realizada no sistema-->
+                    <a title="Imprimir venda" href="<?php echo base_url('vendas/pdf/' . $venda->venda_id); ?>" class="btn btn-dark btn-icon-split btn-lg" target="_blank">
                         <span class="icon text-white-50">
                             <i class="fas fa-print"></i>
                         </span>
