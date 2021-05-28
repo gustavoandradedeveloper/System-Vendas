@@ -49,7 +49,7 @@ class Clientes extends CI_Controller {
         $this->form_validation->set_rules('cliente_email', '', 'trim|required|valid_email|max_length[50]|is_unique[clientes.cliente_email]');
 
         if (!empty($this->input->post('cliente_telefone'))) {
-            $this->form_validation->set_rules('cliente_telefone', '', 'trim|max_length[14]|is_unique[clientes.cliente_telefone]');
+            $this->form_validation->set_rules('cliente_telefone', '', 'trim|max_length[15]|is_unique[clientes.cliente_telefone]');
         }
 
         if (!empty($this->input->post('cliente_celular'))) {
