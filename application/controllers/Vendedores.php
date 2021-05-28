@@ -43,7 +43,7 @@ class Vendedores extends CI_Controller {
         $this->form_validation->set_rules('vendedor_cpf', '', 'trim|required|exact_length[14]|is_unique[vendedores.vendedor_cpf]|callback_valida_cpf');
         $this->form_validation->set_rules('vendedor_rg', '', 'trim|required|max_length[20]|is_unique[vendedores.vendedor_rg]');
         $this->form_validation->set_rules('vendedor_email', '', 'trim|required|valid_email|max_length[50]|is_unique[vendedores.vendedor_email]');
-        $this->form_validation->set_rules('vendedor_telefone', '', 'trim|required|max_length[14]|is_unique[vendedores.vendedor_telefone]');
+        $this->form_validation->set_rules('vendedor_telefone', '', 'trim|required|max_length[15]|is_unique[vendedores.vendedor_telefone]');
         $this->form_validation->set_rules('vendedor_celular', '', 'trim|required|max_length[15]|is_unique[vendedores.vendedor_celular]');
         $this->form_validation->set_rules('vendedor_cep', '', 'trim|required|exact_length[9]');
         $this->form_validation->set_rules('vendedor_endereco', '', 'trim|required|max_length[155]');
