@@ -229,7 +229,7 @@
                     <button type="submit" class="btn btn-primary btn-sm">Salvar</button>
 
                     <!--CARREGA A URL BASE 
-                    $config'base_url' = 'http://localhost/meus-projetos/system-vendas/usuarios';-->
+                    $config'base_url' = 'http://localhost/meus-projetos/tech-manager/usuarios';-->
 
                     <a title="Voltar" 
                        href="<?php echo base_url('clientes'); ?>" class="btn btn-success btn-sm ml-2">Voltar</a>

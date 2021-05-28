@@ -191,30 +191,6 @@ class Fornecedores extends CI_Controller {
 //            echo '<pre>';
 //            print_r($data['fornecedor']);
 //            exit();
-
-                /*
-                 * [fornecedor_id] => 1
-                  [fornecedor_data_cadastro] => 2020-03-29 03:18:03
-                  [fornecedor_razao] => Lucio componentes LTDA
-                  [fornecedor_nome_fantasia] => Lucio Inc
-                  [fornecedor_cnpj] => 25.851.950/0001-50
-                  [fornecedor_ie] =>
-                  [fornecedor_telefone] =>
-                  [fornecedor_celular] =>
-                  [fornecedor_email] => lucioinc@contato.com.br
-                  [fornecedor_contato] => Fulano de tal
-                  [fornecedor_cep] =>
-                  [fornecedor_endereco] =>
-                  [fornecedor_numero_endereco] =>
-                  [fornecedor_bairro] =>
-                  [fornecedor_complemento] =>
-                  [fornecedor_cidade] =>
-                  [fornecedor_estado] =>
-                  [fornecedor_ativo] => 1
-                  [fornecedor_obs] =>
-                  [fornecedor_data_alteracao] => 2020-03-29 03:18:03
-                 */
-
                 $this->load->view('layout/header', $data);
                 $this->load->view('fornecedores/edit');
                 $this->load->view('layout/footer');
