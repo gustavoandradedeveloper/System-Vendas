@@ -3,28 +3,42 @@
 
 
     <!-- Sidebar  -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('home/') ?>">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('home/')?>">
         <div class="sidebar-brand-text mx-3">Tech Manager <sup></sup></div>
     </a>
-
-    <div class="sidebar-heading">
-        CAIXA
-    </div>
+    
     <!-- Divider -->
     <hr class="sidebar-divider my-0">
-    <!--Inicio do módulo de Vendas -->  
-    <li class="nav-item">
-        <a title="Vendas" class="nav-link" href="<?php echo base_url('vendas'); ?>">
-            <i class="fas fa-shopping-cart"></i>  
-            <span>Vendas</span></a>
-    </li>
+
+    <!-- Divider -->
     <hr class="sidebar-divider">
-    <!--Fim do módulo de Vendas -->
 
     <!-- Heading -->
     <div class="sidebar-heading">
         MÓDULOS
     </div>
+
+    <!--Inicio do módulo de Vendas -->
+
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+           aria-controls="collapseTwo">
+            <i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;
+            <span>Vendas</span>
+        </a>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+
+            <div class="bg-white py-2 collapse-inner rounded">
+                <!--<h6 class="collapse-header">ESCOLHA UMA OPÇÃO:</h6>-->
+                <a class="collapse-item" href="<?php echo base_url('vendas'); ?>"><i class="fas fa-shopping-cart text-gray-900"></i>&nbsp;&nbsp;Vendas</a>
+            </div>
+
+        </div>
+    </li>
+
+
+
+    <!--Fim do módulo de Vendas -->
 
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
@@ -36,9 +50,9 @@
         <div id="collapseCadastro" class="collapse" aria-labelledby="headingT" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">ESCOLHA UMA OPÇÃO:</h6>
-                <a class="collapse-item" href="<?php echo base_url('clientes') ?>"><i class="fas fa-user"></i>&nbsp;&nbsp;Clientes</a>
-                <a class="collapse-item" href="<?php echo base_url('fornecedores') ?>"><i class="fas fa-user-tag">&nbsp;&nbsp;</i>Fornecedores</a>
-                <a class="collapse-item" href="<?php echo base_url('vendedores') ?>"><i class="fas fa-user-secret text-gray-900"></i>&nbsp;&nbsp;Vendedores</a>
+                <a class="collapse-item" href="<?php echo base_url('clientes')?>"><i class="fas fa-user"></i>&nbsp;&nbsp;Clientes</a>
+                <a class="collapse-item" href="<?php echo base_url('fornecedores')?>"><i class="fas fa-user-tag">&nbsp;&nbsp;</i>Fornecedores</a>
+                <a class="collapse-item" href="<?php echo base_url('vendedores')?>"><i class="fas fa-user-secret text-gray-900"></i>&nbsp;&nbsp;&nbsp;Vendedores</a>
             </div>
         </div>
     </li>
@@ -53,9 +67,9 @@
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <!--<h6 class="collapse-header">Custom Utilities:</h6>-->
-                <a class="collapse-item" href="<?php echo base_url('marcas') ?>"><i class="fas fa-cubes"></i>&nbsp;Marcas</a>
-                <a class="collapse-item" href="<?php echo base_url('categorias') ?>"><i class="fab fa-buffer"></i>&nbsp;Categorias</a>
-                <a class="collapse-item" href="<?php echo base_url('produtos') ?>"><i class="fab fa-product-hunt"></i>&nbsp;Produtos</a>
+                <a class="collapse-item" href="<?php echo base_url('marcas')?>"><i class="fas fa-cubes"></i>&nbsp;Marcas</a>
+                <a class="collapse-item" href="<?php echo base_url('categorias')?>"><i class="fab fa-buffer"></i>&nbsp;Categorias</a>
+                <a class="collapse-item" href="<?php echo base_url('produtos')?>"><i class="fab fa-product-hunt"></i>&nbsp;Produtos</a>
             </div>
         </div>  
     </li>
@@ -70,14 +84,14 @@
 
     <!-- Nav Item - Charts -->
     <li class="nav-item">
-        <a title="Gerenciar usuários" class="nav-link" href="<?php echo base_url('usuarios/'); ?>">
+        <a title="Gerenciar usuários" class="nav-link" href="<?php echo base_url('usuarios/');?>">
             <i class="fas fa-users"></i>
             <span>Usuários</span></a>
     </li>
 
     <!-- Nav Item - Tables -->
     <li class="nav-item">
-        <a title="Gerenciar dados do sistema" class="nav-link" href="<?php echo base_url('sistema/'); ?>">
+        <a title="Gerenciar dados do sistema" class="nav-link" href="<?php echo base_url('sistema/');?>">
             <i class="fas fa-cog"></i>
             <span>Sistema</span></a>
     </li>
