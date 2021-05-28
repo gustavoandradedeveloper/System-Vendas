@@ -53,7 +53,7 @@
                 <h6 class="collapse-header">ESCOLHA UMA OPÇÃO:</h6>
                 <a class="collapse-item" href="<?php echo base_url('clientes')?>"><i class="fas fa-user"></i>&nbsp;&nbsp;Clientes</a>
                 <a class="collapse-item" href="<?php echo base_url('fornecedores')?>"><i class="fas fa-user-tag">&nbsp;&nbsp;</i>Fornecedores</a>
-                <a class="collapse-item" href="<?php echo base_url('vendedores  ')?>">Vendedores</a>
+                <a class="collapse-item" href="<?php echo base_url('vendedores')?>">Vendedores</a>
                 <a class="collapse-item" href="#">Serviços</a>
             </div>
         </div>
@@ -69,9 +69,10 @@
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <!--<h6 class="collapse-header">Custom Utilities:</h6>-->
-                <a class="collapse-item" href="<?php echo base_url('marcas')?>"><i class="fas fa-cubes"></i>&nbsp;Produtos</a>
+                <a class="collapse-item" href="<?php echo base_url('marcas')?>"><i class="fas fa-cubes"></i>&nbsp;Marcas</a>
+                <a class="collapse-item" href="<?php echo base_url('categorias')?>"><i class="fab fa-buffer"></i>&nbsp;Categorias</a>
             </div>
-        </div>
+        </div>  
     </li>
 
     <!-- Divider -->
