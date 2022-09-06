@@ -15,7 +15,7 @@
 	
 	
 	
-	----------------Configurando o BD--------------------------------------------------
+	----------------Configurando o BD-------------------------------------------------------
 	feito isso vamos configurar o banco de dados agora!
 	1- faça o download do arquivo sql que iremos disponibilzar aqui no  github junto com o projeto; Nome do arquivo --> (techmanager.sql)
 	2- abra o xampp start o (apache e mysql)
