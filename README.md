@@ -1,4 +1,4 @@
-# tech-manager
+#TECH-MANAGER
  Repositório feito para o projeto de sistema de vendas das cadeiras de programação 4 e Tópicos integradores
 	
 	Orientações para usar nosso projeto no sua maquina
