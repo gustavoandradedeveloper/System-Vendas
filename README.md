@@ -7,7 +7,7 @@
 		2° xampp com a versão do PHP do servidor 7.3xx ou 7.4xx
 		3° Opcional (ter editor de código-fonte) como sublime ou visual studio code!
 		
-		----------------Realizando o download do sistema-----------------------------
+		----------------Realizando o download do sistema------------------------------
 	1-baixe o projeto GitHub
 	2- extraia ele.
 	3- Dentro de c:\\xampp\htdocs\  (crie uma pasta chamada (meus-projetos))
@@ -15,7 +15,7 @@
 	
 	
 	
-	----------------Configurando o BD----------------------------------------------------
+	----------------Configurando o BD-----------------------------------------------------
 	feito isso vamos configurar o banco de dados agora!
 	1- faça o download do arquivo sql que iremos disponibilzar aqui no  github junto com o projeto; Nome do arquivo --> (techmanager.sql)
 	2- abra o xampp start o (apache e mysql)
