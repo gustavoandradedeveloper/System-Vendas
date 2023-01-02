@@ -9,7 +9,7 @@
 		
 		----------------Realizando o download do sistema---------------------------
 	1-baixe o projeto GitHub
-	2- extraia ele
+	2- extraia ele.
 	3- Dentro de c:\\xampp\htdocs\  (crie uma pasta chamada (meus-projetos))
 	3- Em seguida copie o arquivo extraido e colo na seguinte pasta: C:\xampp\htdocs\meus-projetos\tech-manager
 	
@@ -21,7 +21,7 @@
 	2- abra o xampp start o (apache e mysql)
 	3- abra o phpMyAdmin no seu navegador -> http://localhost/phpmyadmin/server_databases.php
 	4- Crie um novo banco de dados com o nome (techmanager) tudo junto e em minúsculo; (utf8mb4_general_ci)
-	5- importe o sql que foi feito o download para dentro desse BD criado
+	5- importe o sql que foi feito o download para dentro desse BD criado.
 	
 	
 	----------------abrindo sistema---------------------------------------------------
