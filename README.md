@@ -1,7 +1,7 @@
  # TECH-MANAGER
  Repositório feito para o projeto de sistema de vendas das cadeiras de programação 4 e Tópicos integradores
 	
-			Orientações para usar nosso projeto no sua maquina
+				Orientações para usar nosso projeto no sua maquina
 	--------------------Requisito necessários para o sistema funcionar corretamente ------------------------
 	        1° Navegador como google chrome, microsoft edge etc.
 		2° xampp com a versão do PHP do servidor 7.3xx ou 7.4xx
