@@ -9,6 +9,7 @@
 		3° Opcional (ter editor de código-fonte) como sublime ou visual studio code!
 		
 	----------------------------Realizando o download do sistema--------------------------------------------
+	
 	1-baixe o projeto GitHub
 	2- extraia ele.
 	3- Dentro de c:\\xampp\htdocs\  (crie uma pasta chamada (meus-projetos))
