@@ -9,7 +9,7 @@
 		2° xampp com a versão do PHP do servidor 7.3xx ou 7.4xx
 		3° Opcional (ter editor de código-fonte) como sublime ou visual studio code!
 		
-	----------------------------Realizando o download do sistema----------------------------------
+	----------------------------Realizando o download do sistema---------------------------------
 	
 	1-baixe o projeto GitHub
 	2- extraia ele.
@@ -33,4 +33,4 @@
 	2- vá para a página de login, clicando no último link do menu de navegação no canto superior direito;
 	3- faça login com o seguinte usuário e senha ---> Usuário: admin2@gmail.com    Senha: 12345
 	4- no siderbar clique em Usuário e realize seu cadastro com vendedor ou adm 
-	------------------Fim---------------------------------------------------------------------------
+	------------------Fim--------------------------------------------------------------------------
