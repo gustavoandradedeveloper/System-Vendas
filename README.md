@@ -28,7 +28,7 @@
 	5- importe o sql que foi feito o download para dentro desse BD criado.
 	
 
-	----------------abrindo sistema------------------------------------------------------------------
+	----------------abrindo sistema-------------------------------------------------------------------
 	1- acesse seu navegador com o seguinte caminho -> http://localhost/meus-projetos/tech-manager/
 	2- vá para a página de login, clicando no último link do menu de navegação no canto superior direito;
 	3- faça login com o seguinte usuário e senha ---> Usuário: admin2@gmail.com    Senha: 12345
