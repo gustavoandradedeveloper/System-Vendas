@@ -33,4 +33,4 @@
 	2- vá para a página de login, clicando no último link do menu de navegação no canto superior direito;
 	3- faça login com o seguinte usuário e senha ---> Usuário: admin2@gmail.com    Senha: 12345
 	4- no siderbar clique em Usuário e realize seu cadastro com vendedor ou adm
-	------------------Fim------------------------------------------------------------------------------
+	------------------Fim-------------------------------------------------------------------------------
